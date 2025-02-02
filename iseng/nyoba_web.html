@@ -1,0 +1,1578 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Halaman Depan</title>
+    <!-- for icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <!-- for swiper -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+    <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar section-content">
+            <a href="#" class="nav-logo">
+                <h2 class="logo">Game</h2>
+            </a>   
+            <button id="menu-close-button" class="fas fa-times"></button>
+            <ul class="nav-menu">
+                <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
+                <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+                <li class="nav-item"><a href="#menu" class="nav-link">Game Menu</a></li>
+                <li class="nav-item"><a href="#testimonials" class="nav-link">Character</a></li>
+                <li class="nav-item"><a href="#gallery" class="nav-link">Event</a></li>
+                <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <button id="menu-open-button" class="fas fa-bars"></button>
+        </nav>
+    </header>
+    <main>
+     <!-- hero -->
+    <section class="hero-section">
+        <div class="section-content">
+            <div class ="hero-details">
+                <h2 class="title">Best Game</h2>
+                <h3 class="subtitles">make your day great with our special game</h3>
+                <p class="description">welcome to our paradise, where every bean tells a story and every game</p>
+                <div class="button">
+                    <a href="#" target="_blank" class="button order now">Genshin Impact</a>
+                    <a href="#" target="_blank" class="button order now">Zenles Zone Zero</a>
+                    <a href="#" target="_blank" class="button order now">Blue Archive</a>
+                    <a href="#" target="_blank" class="button contact-us">Honkai Star-Rail</a> 
+                </div>
+            </div>
+            <div class="hero-image-wrapper">
+                <img src="yimage (1)dd.png" alt="hero" class="hero-image">
+            </div>
+        </div>
+    </section>
+     <!-- about -->
+    <section class ="about-section"id="about">
+        <div class="section-content">
+        <div class="about-image-wrapper">
+            <img src="WhatsApp Image 2025-01-31 at 14.24.52_ebbbc81basas.jpg" alt="About" class="about-image">
+        </div>
+        <div class="about-details">
+            <h2 class="section-title">About Us</h2>
+            <p class="text">(KIM/FALL)<br>Muhammad Abshar Hakim<br>Bermain Game Bisa membuat tenang tapi kalo gacha ampas mending uninstal </p>
+            
+            <div class="social-link-list">
+                <a href="https://www.facebook.com/hakim.daksnecis/" class="social-link "target="blank"><i class="fab fa-facebook"></i></a>
+                <a href="https://www.instagram.com/abshar_hkm/#" class="social-link" target="blank"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.facebook.com/hakim.daksnecis/" class="social-link" target="blank"><i class="fab fa-x-twitter"></i></a>
+            </div>
+        </div>
+        
+    </section>
+     <!-- menu -->
+    <section class="menu-section" id="menu">
+        <h2 class="section-title">Our Game</h2>
+        <div class="section-content">
+            <ul class="menu-list">
+                <li class="menu-item">
+                    <img src="honkai impact.jpeg" alt="Hot Coffe" class="menu-image">
+                    <h3 class="name">Honkai Impact 3rd</h3>
+                    <p class="text"></p>
+                </li>
+                <li class="menu-item">
+                    <img src="genshin impact.png" alt="Hot Coffe" class="menu-image">
+                    <h3 class="name">Genshin Impact</h3>
+                    <p class="text"></p>
+                </li>
+                <li class="menu-item">
+                    <img src="honkai starrail.jpeg" alt="Hot Coffe" class="menu-image">
+                    <h3 class="name">Honkai Star-Rail</h3>
+                    <p class="text"></p>
+                </li>
+                <li class="menu-item">
+                    <img src="zzz.jpeg" alt="Hot Coffe" class="menu-image">
+                    <h3 class="name">Zenles Zone Zero</h3>
+                    <p class="text"></p>
+                </li>
+                <li class="menu-item">
+                    <img src="blue archive.jpeg" alt="Hot Coffe" class="menu-image">
+                    <h3 class="name">Blue Archive</h3>
+                    <p class="text"></p>
+                </li>
+                <li class="menu-item">
+                    <img src="wuwa.jpeg" alt="Hot Coffe" class="menu-image">
+                    <h3 class="name">Wuthering Waves</h3>
+                    <p class="text"></p>
+                </li>
+            </ul>
+        </div>
+    </section>
+     <!-- testimonials -->
+   <section class="game-selection-section"id="testimonials">
+        <h2 class="section-title">Select a Game</h2>
+        <div class="game-filters">
+            <button class="game-btn" data-game="genshin">Genshin Impact</button>
+            <button class="game-btn" data-game="zenles">Zenles Zone Zero</button>
+            <button class="game-btn" data-game="bluearchive">Blue Archive</button>
+            <button class="game-btn" data-game="honkai">Honkai Star-Rail</button>
+        </div>
+    </section>
+
+    <section class="testimonials-section" id="genshin" style="display: none;">
+        <h2 class="section-title">Genshin Impact</h2>
+        <div class="region-filters">
+            <button class="region-btn" data-region="all">All</button>
+            <button class="region-btn" data-region="preview">Preview</button>
+            <button class="region-btn" data-region="mondstadt">Mondstadt</button>
+            <button class="region-btn" data-region="liyue">Liyue</button>
+            <button class="region-btn" data-region="inazuma">Inazuma</button>
+            <button class="region-btn" data-region="sumeru">Sumeru</button>
+            <button class="region-btn" data-region="fontaine">Fontaine</button>
+            <button class="region-btn" data-region="natlan">Natlan</button>
+            <button class="region-btn" data-region="snezhnaya">Snezhnaya</button>
+        </div>
+        <div class="section-content">
+            <div class="slider-content swiper">
+                <div class="slider-wrapper">
+                    <ul class="testimonials-list swiper-wrapper">
+                        <!-- Genshin Impact characters here -->
+                        <li class="testimonial swiper-slide" data-region="preview">
+                            <img src="monstad.jpg" alt="user" class="user-image">
+                            <h3 class="name">Mondstadt</h3>
+                            <i class="Feedback">Kota kebebasan yang terletak di bagian timur laut Teyvat, berdiri dengan megah di atas pulau di tengah-tengah danau. Angin berhembus melewati pegunungan dan lahan-lahan luas, sambil membawa harum aroma dari benih-benih dandelion — berkat dari Dewa Anemo, Barbatos — yang berterbangan dari Cider Lake sampai ke Mondstadt, guna mencari tempat untuk menanamkan akarnya.</i>
+                        </li>
+                        <li class="testimonial swiper-slide" data-region="preview">
+                            <img src="liyue.jpg" alt="user" class="user-image">
+                            <h3 class="name">Liyue</h3>
+                            <i class="Feedback">Pelabuhan yang terletak di bagian Teyvat Timur. Gunung-gunung berdiri dengan gagah di sekeliling sehamparan hutan batu, mendampingi sebuah lahan luas dan sungai yang penuh kehidupan, membuat keindahan pemandangan yang asri dan alami di Liyue, dilukiskan dengan warna yang berbeda-beda seiring bergantinya musim. Ada berapa banyak kira-kira berkat yang diberikan oleh Dewa Geo di antara bebatuan pegunungan Liyue?</i>
+                        </li>
+                        <li class="testimonial swiper-slide" data-region="preview">
+                            <img src="inazuma.jpg" alt="user" class="user-image">
+                            <h3 class="name">Inazuma</h3>
+                            <i class="Feedback">Kepulauan Tertutup Jauh di Timur Teyvat Hadapilah badai petir yang tiada henti, dan jejakkan kaki di pulau yang bergelimang maple merah dan sakura. Di pesisir pantai yang berliku, di tebing yang menjulang tinggi, di hutan dan gunung yang penuh dengan rahasia, saksikanlah Keabadian yang dikejar oleh Yang Mulia — sang Narukami Ogosho Yang Mahakuasa.</i>
+                        </li>
+                        <li class="testimonial swiper-slide" data-region="preview">
+                            <img src="sumeru.jpg" alt="user" class="user-image">
+                            <h3 class="name">Sumeru</h3>
+                            <i class="Feedback">Kota universitas yang terletak di tengah sisi barat Teyvat.Sebuah bangsa eksotis di mana terdapat hutan hujan yang rimbun dan gurun pasir yang tandus. Buah kebijaksanaan yang tak terhitung jumlahnya berakar, berkembang, dan layu di sini. Setiap Traveler yang datang ke sini dapat memperoleh pengetahuan yang berharga dengan melewati hutan, mendaki tangga pengetahuan, atau mengungkap reruntuhan kuno di gurun pasir.</i>
+                        </li>
+                        <li class="testimonial swiper-slide" data-region="preview">
+                            <img src="fontaine.jpg" alt="user" class="user-image">
+                            <h3 class="name">Fontaine</h3>
+                            <i class="Feedback">Cerita yang belum pernah didengar dan legenda yang sudah lama terlupakan layaknya kerajaan yang menghilang di bawah air sedang mendambakan datangnya sesosok wisatawan.
+
+                                Setelah mengikuti arah berasalnya air, melintasi alam liar, hutan belantara serta lautan berpasir, sampailah juga kamu di sumber sistem perairan bangsa ini.
+                                
+                                Di puncak air terjun dan di kedalaman laut yang ada di atas dataran tinggi, babak baru dari sebuah petualangan sedang dimulai dengan tenang.</i>
+                        </li>
+                        <li class="testimonial swiper-slide" data-region="preview">
+                            <img src="natlan.jpg" alt="user" class="user-image">
+                            <h3 class="name">Natlan</h3>
+                            <i class="Feedback">Natlan is located beyond the west side of Sumeru's desert region, the Great Red Sand, from the Desert of Hadramaveth. It is also home to natural hot springs created from volcanic activity.[3][4] Its people are grouped into tribes, and each tribe follows different rules.[5] During Tenoch's era 500 years ago, there were at least six major tribes in Natlan, of which all are extant by the time the Traveler arrives there.[6]</i>
+                        </li>
+                        <li class="testimonial swiper-slide" data-region="mondstadt">
+                            <img src="eula.png" alt="user" class="user-image">
+                            <h3 class="name">Eula</h3>
+                            <i class="Feedback">Sang Spindrift Knight, keturunan keluarga bangsawan dan Kapten dari Pasukan Gerilya Knights of Favonius. Alasan kenapa seorang keturunan bangsawan kuno ingin bergabung dengan para Knight masih menjadi misteri di Mondstadt sampai saat ini.</i>
+                        </li>
+                        <li class="testimonial swiper-slide" data-region="mondstadt">
+                            <img src="jean.png" alt="user" class="user-image" >
+                            <h3 class="name">Jean</h3>
+                            <i class="Feedback">Dandelion Knight yang menjunjung tinggi keadilan dan kebenaran. Menjabat sebagai Grand Master Knights of Favonius di Mondstadt.</i>
+                        </li>
+                        <li class="testimonial swiper-slide" data-region="mondstadt">
+                            <img src="klee.png" alt="user" class="user-image">
+                            <h3 class="name">Klee</h3>
+                            <i class="Feedback">Seorang ahli peledak yang sudah menjadi langganan di ruang tahanan Knights of Favonius. Juga dikenal dengan nama Fleeing Sunlight.</i>
+                        </li>
+                        <li class="testimonial swiper-slide" data-region="mondstadt">
+                            <img src="lisa.png" alt="user" class="user-image">
+                            <h3 class="name">Lisa</h3>
+                            <i class="Feedback">Pustakawan Knights of Favonius yang sangat malas namun berwawasan sangat luas, pernah dinyatakan oleh Sumeru Academia sebagai siswi kelulusan terbaik 2 abad terakhir.</i>
+                        </li>
+                        <li class="testimonial swiper-slide" data-region="mondstadt">
+                            <img src="fischl.png" alt="user" class="user-image">
+                            <h3 class="name">Fischl</h3>
+                            <i class="Feedback">Seorang gadis misterius yang menyebut dirinya sendiri "Prinzessin der Verurteilung", dia selalu terlihat bersama dengan seekor gagak hitam yang bernama Oz.</i>
+                        </li>
+                        <li class="testimonial swiper-slide" data-region="mondstadt">
+                            <img src="barbara.png" alt="user" class="user-image">
+                            <h3 class="name">Barbara</h3>
+                            <i class="Feedback">Setiap penduduk Mondstadt mendambakan Barbara. Tetapi kata "idola" yang melekat padanya, dia hanya melihatnya dari majalah.</i>
+                        </li>
+                        <li class="testimonial swiper-slide" data-region="mondstadt">
+                            <img src="mona.png" alt="user" class="user-image">
+                            <h3 class="name">Mona</h3>
+                            <i class="Feedback">Seorang astrolog yang menyebut dirinya sendiri sebagai "Astrologist Mona Megistus", dan memiliki kemampuan yang sesuai dengan julukannya. Kepandaiannya setara dengan keangkuhannya.</i>
+                        </li>
+                        <li class="testimonial swiper-slide" data-region="mondstadt">
+                            <img src="sucrose.png" alt="user" class="user-image">
+                            <h3 class="name">Sucrose</h3>
+                            <i class="Feedback">Seorang alkemis dipenuhi dengan rasa ingin tahu tentang semua hal. Dia meneliti bio-alkimia.</i>
+                        </li>
+                        <li class="testimonial swiper-slide" data-region="liyue">
+                            <img src="xianyun.png" alt="user" class="user-image">
+                            <h3 class="name">Xianyun</h3>
+                            <i class="Feedback">Salah satu Adeptus yang agung dan mulia dari Jueyun, "Cloud Retainer". Ahli segala jenis mekanika, yang hatinya kini berpaling kepada dunia fana. "Xianyun" Adalah nama yang digunakannya setelah turun gunung.</i>
+                        </li>
+                        <li class="testimonial swiper-slide" data-region="liyue">
+                            <img src="ganyu.png" alt="user" class="user-image">
+                            <h3 class="name">Ganyu</h3>
+                            <i class="Feedback">Seorang sekretaris di Yuehai Pavilion. Darah hewan pusaka Qilin mengalir di dalam tubuhnya.</i>
+                        </li>
+                        <li class="testimonial swiper-slide" data-region="liyue">
+                            <img src="yelan.png" alt="user" class="user-image" >
+                            <h3 class="name">Yelan</h3>
+                            <i class="Feedback">Orang misterius yang mengaku bekerja di Bagian Urusan Sipil, tetapi "tidak terdaftar" di data Bagian Urusan Sipil.</i>
+                        </li>
+                        <li class="testimonial swiper-slide" data-region="liyue">
+                            <img src="hutao.png" alt="user" class="user-image">
+                            <h3 class="name">Hutao</h3>
+                            <i class="Feedback">Master ke-77 Wangsheng Funeral Parlor. Dia mengambil alih bisnis ini di umur yang cukup muda.</i>
+                        </li>
+                        <li class="testimonial swiper-slide" data-region="liyue">
+                            <img src="shenhe.png" alt="user" class="user-image" >
+                            <h3 class="name">Shenhe</h3>
+                            <i class="Feedback">Seorang murid Adeptus dengan temperamen yang sedikit unik. Karena sudah lama hidup terisolasi di pegunungan Liyue, sifatnya juga menjadi acuh tak acuh dan menjaga jarak seperti para Adeptus.</i>
+                        </li>
+                        <li class="testimonial swiper-slide" data-region="liyue">
+                            <img src="keqing.png" alt="user" class="user-image" >
+                            <h3 class="name">Keqing</h3>
+                            <i class="Feedback">Yuheng dari Liyue Qixing, dia punya banyak hal yang ingin dikatakan mengenai Rex Lapis yang memerintah Liyue- dan pada kenyataannya, para Dewa mengagumi orang-orang sepertinya.</i>
+                        </li>
+                        <li class="testimonial swiper-slide" data-region="inazuma">
+                            <img src="ei.png" alt="user" class="user-image">
+                            <h3 class="name">Ei</h3>
+                            <i class="Feedback">Yang Mulia, Sang Narukami Ogosho Yang Mahakuasa. Dia menjanjikan para penduduk Inazuma keabadian yang tidak akan pernah berubah.</i>
+                        </li>
+                        <li class="testimonial swiper-slide" data-region="inazuma">
+                            <img src="yaemiko.png" alt="user" class="user-image">
+                            <h3 class="name">Yae Miko</h3>
+                            <i class="Feedback">Lady Guuji dari Kuil Agung Narukami juga menjabat sebagai pemimpin redaksi Yae Publishing House. Kecerdasan dan kelicikan yang tidak dapat dibayangkan tersembunyi di balik penampilannya yang cantik.</i>
+                        </li>
+                        <li class="testimonial swiper-slide" data-region="inazuma">
+                            <img src="ayaka.png" alt="user" class="user-image">
+                            <h3 class="name">Kamisato Ayaka</h3>
+                            <i class="Feedback">Putri dari Klan Kamisato di Yashiro Commission. Bermartabat dan elegan, cerdas dan tangguh.</i>
+                        </li>
+                        <li class="testimonial swiper-slide" data-region="inazuma">
+                            <img src="yoimiya.png" alt="user" class="user-image">
+                            <h3 class="name">Yoimiya</h3>
+                            <i class="Feedback">Pemilik Naganohara Fireworks. Juga dikenal sebagai "Ratu Festival Musim Panas", dia mahir membuat kembang api yang melambangkan harapan dan impian semua orang.</i>
+                        </li>
+                        <li class="testimonial swiper-slide" data-region="inazuma">
+                            <img src="kokomi.png" alt="user" class="user-image">
+                            <h3 class="name">Sangonomiya Kokomi</h3>
+                            <i class="Feedback">Sang Pemimpin Suci di Pulau Watatsumi. Segala urusan yang terjadi di pulau tersebut ada dalam genggaman nona muda ini.</i>
+                        </li>
+                        <li class="testimonial swiper-slide" data-region="sumeru">
+                            <img src="nilor.png" alt="user" class="user-image">
+                            <h3 class="name">Nilou</h3>
+                            <i class="Feedback">Penari terkenal di Teater Zubayr. Tariannya elegan dan gemulai, pembawaannya ramah dan polos.</i>
+                        </li>
+                        <li class="testimonial swiper-slide" data-region="sumeru">
+                            <img src="nahida.png" alt="user" class="user-image">
+                            <h3 class="name">Nahida</h3>
+                            <i class="Feedback">Seorang gadis yang dikurung bak burung di dalam sangkar Sanctuary of Surasthana, hanya bisa melihat dunia dari dalam mimpi.</i>
+                        </li>
+                        <li class="testimonial swiper-slide" data-region="sumeru">
+                            <img src="collei.png" alt="user" class="user-image">
+                            <h3 class="name">Collei</h3>
+                            <i class="Feedback">Seorang Penjaga Hutan Pemula yang aktif di Hutan Avidya. Tutur kata dan perbuatannya sangat lembut, namun kepribadiannya sedikit tertutup.</i>
+                        </li>
+                        <li class="testimonial swiper-slide" data-region="sumeru">
+                            <img src="faruzan.png" alt="user" class="user-image">
+                            <h3 class="name">Faruzan</h3>
+                            <i class="Feedback">Peneliti dari "seratus tahun lalu". Dia suka mengaku diri sebagai seniornya semua orang dan punya pengetahuan yang luas tentang berbagai naskah kuno dan segala jenis mesin.</i>
+                        </li>
+                        <li class="testimonial swiper-slide" data-region="sumeru">
+                            <img src="dehya.png" alt="user" class="user-image">
+                            <h3 class="name">Dehya</h3>
+                            <i class="Feedback">Seorang anggota Eremite, sebuah organisasi tentara bayaran di Sumeru. Dia berani, kuat, dan sudah sangat terkenal di kalangan Eremite.</i>
+                        </li>
+                        <li class="testimonial swiper-slide" data-region="sumeru">
+                            <img src="candace.png" alt="user" class="user-image">
+                            <h3 class="name">Candace</h3>
+                            <i class="Feedback">Keturunan Raja Deshret yang memiliki mata kiri berwarna kuning keemasan. Pelindung Desa Aaru.</i>
+                        </li>
+                        <li class="testimonial swiper-slide" data-region="fontaine">
+                            <img src="lynette.png" alt="user" class="user-image">
+                            <h3 class="name">Lynette</h3>
+                            <i class="Feedback">Asisten pesulap yang tidak banyak bicara. Emosinya sulit ditebak, persis seperti kucing.</i>
+                        </li><li class="testimonial swiper-slide" data-region="fontaine">
+                            <img src="charlotte.png" alt="user" class="user-image">
+                            <h3 class="name">Charlotte</h3>
+                            <i class="Feedback">Seorang reporter dari The Steambird yang selalu terlihat sangat bersemangat. Ia tidak pernah berhenti berlari ke sana kemari untuk mencari "kebenaran".</i>
+                        </li><li class="testimonial swiper-slide" data-region="fontaine">
+                            <img src="furina.png" alt="user" class="user-image">
+                            <h3 class="name">Furina</h3>
+                            <i class="Feedback">Pusat perhatian utama panggung pengadilan, hingga tepuk-tangan di penghujung acara terdengar.</i>
+                        </li><li class="testimonial swiper-slide" data-region="fontaine">
+                            <img src="navia.png" alt="user" class="user-image">
+                            <h3 class="name">Navia</h3>
+                            <i class="Feedback">Ketua Spina di Rosula, bos yang cantik, baik, dan bertanggung jawab.</i>
+                        </li><li class="testimonial swiper-slide" data-region="fontaine">
+                            <img src="chiori.png" alt="user" class="user-image">
+                            <h3 class="name">Chiori</h3>
+                            <i class="Feedback">Pemilik Chioriya Boutique. Penjahit yang namanya sangat terkenal di Fontaine.</i>
+                        </li><li class="testimonial swiper-slide" data-region="fontaine">
+                            <img src="arlecchino.png" alt="user" class="user-image">
+                            <h3 class="name">Arlecchino</h3>
+                            <i class="Feedback">Fatui Harbinger ke-4 "The Knave". Diplomat yang tenang dan kejam. Dikenal sebagai "Ayah" yang dihormati dan dapat diandalkan oleh anak-anak di House of the Hearth.</i>
+                        </li><li class="testimonial swiper-slide" data-region="fontaine">
+                            <img src="clorinde.png" alt="user" class="user-image">
+                            <h3 class="name">Clorinde</h3>
+                            <i class="Feedback">Petarung Juara tak terkalahkan. Dengan pedang di tangannya, dia mempertahankan keadilan di Court of Fontaine.</i>
+                        </li>
+                        <li class="testimonial swiper-slide" data-region="natlan">
+                            <img src="citlali.png" alt="user" class="user-image">
+                            <h3 class="name">Citlali</h3>
+                            <i class="Feedback">Shaman Agung dari Penguasa Angin Malam, Nenek Itztli yang dihormati oleh orang dari semua suku.</i>
+                        </li>
+                        <li class="testimonial swiper-slide" data-region="natlan">
+                            <img src="mavuika.png" alt="user" class="user-image">
+                            <h3 class="name">Mavuika</h3>
+                            <i class="Feedback">Seorang pemimpin Natlan yang mewarisi Marga Kuno "Kiongozi". Dia bersumpah untuk menerangi masa depan bangsa peperangan dengan Api Keramat.</i>
+                        </li>
+                        <li class="testimonial swiper-slide" data-region="natlan">
+                            <img src="mualani.png" alt="user" class="user-image">
+                            <h3 class="name">Mualani</h3>
+                            <i class="Feedback">Pemandu yang sudah terkenal di seantero Natlan, merupakan pemilik toko olahraga air, merupakan ahli dalam berbagai jenis berselancar ombak.</i>
+                        </li>
+                        <li class="testimonial swiper-slide" data-region="natlan">
+                            <img src="kachina.png" alt="user" class="user-image">
+                            <h3 class="name">Kachina</h3>
+                            <i class="Feedback">Pejuang muda Nanatzcayan yang menyandang Marga Kuno "Uthabiti". Baik hati dan pantang menyerah, dia tumbuh lebih kuat acap kali berhasil melewati rintangan yang menghadang.</i>
+                        </li>
+                        <li class="testimonial swiper-slide" data-region="natlan">
+                            <img src="xilonen.png" alt="user" class="user-image">
+                            <h3 class="name">Xilonen</h3>
+                            <i class="Feedback">Seorang Pengukir Marga Nanatzcayan yang sangat terampil dalam mencari keseimbangan antara beban kerja yang berat dan hidup dengan nyaman.</i>
+                        </li>
+                        <li class="testimonial swiper-slide" data-region="natlan">
+                            <img src="chasca.png" alt="user" class="user-image" >
+                            <h3 class="name">Chasca</h3>
+                            <i class="Feedback">"Penengah" Tlalocan yang sudah berhasil mengakhiri perselisihan yang tak terhitung jumlahnya.</i>
+                        </li>
+                        <li class="testimonial swiper-slide" data-region="snezhnaya">
+                            <img src="#" alt="user" class="user-image" >
+                            <h3 class="name">?</h3>
+                            <i class="Feedback">COMING SOON</i>
+                        </li>
+                    </ul>
+                    <div class="swiper-pagination"></div>
+                    <div class="swiper-slide-button swiper-button-prev"></div>
+                    <div class="swiper-slide-button swiper-button-next"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="testimonials-section" id="zenles" style="display:none;">
+        <h2 class="section-title">Zenles Zone Zero</h2>
+        <div class="kelompok-filters">
+            <button class="kelompok-btn" data-kelompok="all">All</button>
+            <button class="kelompok-btn" data-kelompok="preview">Preview</button>
+            <button class="kelompok-btn" data-kelompok="Cunning">Cunning Hares</button>
+            <button class="kelompok-btn" data-kelompok="Sons">Sons Of Calydon</button>
+            <button class="kelompok-btn" data-kelompok="Victoria">Victoria HouseKeeping</button>
+            <button class="kelompok-btn" data-kelompok="belobog">Belobog Heavy Industries</button>
+            <button class="kelompok-btn" data-kelompok="section6">Section 6</button>
+            <button class="kelompok-btn" data-kelompok="srt">Spesial Response Team</button>
+            <button class="kelompok-btn" data-kelompok="stars">Stars of Lyra</button>
+            <button class="kelompok-btn" data-kelompok="obol">Obol Squad</button>
+        </div>
+        <div class="background-container" data-game="zenles" >
+            <div class="background-kelompok" id="zenles">
+                <img src="cunningsquad.png" alt="background" class="background-image" data-kelompok="Cunning"style="display:none;">
+                <img src="sonss.png" alt="background" class="background-image" data-kelompok="Sons" style="display:none;">
+                <img src="victoriaa.png" alt="background" class="background-image" data-kelompok="Victoria" style="display:none;">
+                <img src="belobogg.png" alt="background" class="background-image" data-kelompok="Belobog" style="display:none;">
+                <img src="s6.png" alt="background" class="background-image" data-kelompok="Section6" style="display:none;">
+                <img src="lucy.png" alt="background" class="background-image" data-kelompok="SRT" style="display:none;">
+                <img src="starsof.jpeg" alt="background" class="background-image" data-kelompok="Stars" style="display:none;">
+                <img src="obols.png" alt="background" class="background-image" data-kelompok="Obol" style="display:none;">
+                <img src="previeww.png" alt="background" class="background-image" data-kelompok="preview" style="display:none;">
+                <img src="all.png" alt="background" class="background-image" data-kelompok="all">
+            </div>
+        </div>
+        
+        <style>
+        </style>
+        <div class="section-content">
+            <div class="slider-content swiper">
+                <div class="slider-wrapper">
+                    <ul class="testimonials-list swiper-wrapper">
+                        <!-- Zenles Zone Zero characters here -->
+                        <li class="testimonial swiper-slide" data-kelompok="preview">
+                            <img src="cunning_hares.723b32a.png" alt="user" class="user-image">
+                            <h3 class="name">Cunning Hares</h3>
+                            <i class="Feedback">The Cunning Hares are always available for the right price!</i>
+                        </li>
+                        <li class="testimonial swiper-slide" data-kelompok="preview">
+                            <img src="sons.png" alt="user" class="user-image">
+                            <h3 class="name">Sons Of Calydon</h3>
+                            <i class="Feedback">1 come, I sen, I crasht </i>
+                        </li>
+                        <li class="testimonial swiper-slide" data-kelompok="preview">
+                            <img src="victoria.png" alt="user" class="user-image">
+                            <h3 class="name">Victoria HouseKeeping</h3>
+                            <i class="Feedback">Thank you for using Victoria Housekeeping. Your wish is our command.</i>
+                        </li>
+                        <li class="testimonial swiper-slide" data-kelompok="preview">
+                            <img src="belobog.png" alt="user" class="user-image">
+                            <h3 class="name">Belobog Heavy Industries</h3>
+                            <i class="Feedback">Our goal is not to build a house, but a home.</i>
+                        </li>
+                        <li class="testimonial swiper-slide" data-kelompok="preview">
+                            <img src="section6.png" alt="user" class="user-image">
+                            <h3 class="name">Section 6</h3>
+                            <i class="Feedback">Eradicate all evil we decide for ourselves what "evil" is.</i>
+                        </li>
+                        <li class="testimonial swiper-slide" data-kelompok="preview">
+                            <img src="srt.png" alt="user" class="user-image">
+                            <h3 class="name">Spesial Response Team</h3>
+                            <i class="Feedback">If you encounter any trouble, please contact New Eridu Public Security.</i>
+                        </li>
+                        <li class="testimonial swiper-slide" data-kelompok="preview">
+                            <img src="stars.jpeg" alt="user" class="user-image">
+                            <h3 class="name">Stars Of Lyra</h3>
+                            <i class="Feedback">"My Queen! Here, over here! Wait... This lady is so pretty... Is she a celebrity as well?" </i>
+                        </li>
+                        <li class="testimonial swiper-slide" data-kelompok="preview">
+                            <img src="obol.png" alt="user" class="user-image">
+                            <h3 class="name">Obol Squad</h3>
+                            <i class="Feedback">"What a beautiful harmonica melody... Wait, there's no one here? C-Could it be a ghost?!" </i>
+                        </li>
+                        <li class="testimonial swiper-slide" data-kelompok="Cunning">
+                            <img src="anbi.jpg" alt="user" class="user-image">
+                            <h3 class="name">Anby</h3>
+                            <i class="Feedback">Target confirmed. Commencing the operation</i>
+                        </li>
+                        <li class="testimonial swiper-slide" data-kelompok="Cunning">
+                            <img src="nicole.jpg" alt="user" class="user-image">
+                            <h3 class="name">Nicole</h3>
+                            <i class="Feedback">A wise choice! 
+                                But I should warn you, my services don't come cheap!</i>
+                        </li>
+                        <li class="testimonial swiper-slide" data-kelompok="Cunning">
+                            <img src="nekomata.jpg" alt="user" class="user-image">
+                            <h3 class="name">Nekomata</h3>
+                            <i class="Feedback">The best mackerel is always the one you haven't eaten yet~</i>
+                        </li>
+                        <li class="testimonial swiper-slide" data-kelompok="Sons">
+                            <img src="caesar.jpg" alt="user" class="user-image">
+                            <h3 class="name">Caesar King</h3>
+                            <i class="Feedback">I'm Caesar herself, the leader of Sons of Calydon.</i>
+                        </li>
+                        <li class="testimonial swiper-slide" data-kelompok="Sons">
+                            <img src="burnice.jpg" alt="user" class="user-image">
+                            <h3 class="name">Burnice</h3>
+                            <i class="Feedback">You don't seem too fired up. Need a little spark~?</i>
+                        </li>
+                        <li class="testimonial swiper-slide" data-kelompok="Sons">
+                            <img src="viper.jpg" alt="user" class="user-image">
+                            <h3 class="name">Piper Wheel</h3>
+                            <i class="Feedback">Need a lift? Don't forget to buckle up.</i>
+                        </li>
+                        <li class="testimonial swiper-slide" data-kelompok="Sons">
+                            <img src="luzy.jpg" alt="user" class="user-image">
+                            <h3 class="name">Lucy</h3>
+                            <i class="Feedback">An honored guest just arrived. Allow me, Lady Lucy, to entertain you!</i>
+                        </li>
+                        <li class="testimonial swiper-slide" data-kelompok="Victoria">
+                            <img src="rina.jpg" alt="user" class="user-image">
+                            <h3 class="name">Alexadriana</h3>
+                            <i class="Feedback">Are you the new master? 
+                                Rina from Victoria 
+                                Housekeeping, at your service</i>
+                        </li>
+                        <li class="testimonial swiper-slide" data-kelompok="Victoria">
+                            <img src="ellen.jpg" alt="user" class="user-image">
+                            <h3 class="name">Ellen Joe</h3>
+                            <i class="Feedback">Ah, another annoying commission... I should've taken a different shift. </i>
+                        </li>
+                        <li class="testimonial swiper-slide" data-kelompok="Victoria">
+                            <img src="corin.jpg" alt="user" class="user-image">
+                            <h3 class="name">Corin Wickes</h3>
+                            <i class="Feedback">Can someone like me really manage?</i>
+                        </li>
+                        <li class="testimonial swiper-slide" data-kelompok="belobog">
+                            <img src="koleda.jpg" alt="user" class="user-image">
+                            <h3 class="name">Koleda Belobog</h3>
+                            <i class="Feedback">I'm Belobog Heavy Industries' president, Koleda. </i>
+                        </li>
+                        <li class="testimonial swiper-slide" data-kelompok="belobog">
+                            <img src="grace.jpg" alt="user" class="user-image">
+                            <h3 class="name">Grace Howard</h3>
+                            <i class="Feedback">Such sharp and strong lines, truly beautiful... I can't help but want to open it up and take a look.</i>
+                        </li>
+                        <li class="testimonial swiper-slide" data-kelompok="section6">
+                            <img src="miyabi.jpg" alt="user" class="user-image">
+                            <h3 class="name">Hoshimi Miyabi</h3>
+                            <i class="Feedback">Order cannot be broken.</i>
+                        </li>
+                        <li class="testimonial swiper-slide" data-kelompok="section6">
+                            <img src="yanagi.jpg" alt="user" class="user-image">
+                            <h3 class="name">Tsukishiro yanagi</h3>
+                            <i class="Feedback">Hello, I'm Tsukishiro Yanagi, Deputy Chief of Section 6.</i>
+                        </li>
+                        <li class="testimonial swiper-slide" data-kelompok="section6">
+                            <img src="soukaku.jpg" alt="user" class="user-image">
+                            <h3 class="name">Soukaku</h3>
+                            <i class="Feedback">I'm happy as long as I can always eat my fill-</i>
+                        </li>
+                        <li class="testimonial swiper-slide" data-kelompok="srt">
+                            <img src="zhuyuan.jpg" alt="user" class="user-image">
+                            <h3 class="name">Zhu Yuan</h3>
+                            <i class="Feedback">Leader of Public Security's Criminal Investigation team, Zhu Yuan, standing by. </i>
+                        </li>
+                        <li class="testimonial swiper-slide" data-kelompok="srt">
+                            <img src="jane.jpg" alt="user" class="user-image">
+                            <h3 class="name">Jane Doe</h3>
+                            <i class="Feedback">Well, last time was last time! This time, I'm telling the truth. Trust me~</i>
+                        </li>
+                        <li class="testimonial swiper-slide" data-kelompok="srt">
+                            <img src="qingyi.jpg" alt="user" class="user-image">
+                            <h3 class="name">Qingyi</h3>
+                            <i class="Feedback">A chance encounter, just as I had hoped.</i>
+                        </li>
+                        <li class="testimonial swiper-slide" data-kelompok="stars">
+                            <img src="astrayao.jpg" alt="user" class="user-image">
+                            <h3 class="name">Astra Yao</h3>
+                            <i class="Feedback">This next song is dedicated to the world!</i>
+                        </li>
+                        <li class="testimonial swiper-slide" data-kelompok="stars">
+                            <img src="evelyn.png" alt="user" class="user-image">
+                            <h3 class="name">Evelyn</h3>
+                            <i class="Feedback">"Miss Yao is currently enjoying her private time and will not be taking any interviews."</i>
+                        </li>
+                        <li class="testimonial swiper-slide" data-kelompok="obol">
+                            <img src="soldier11.jpg" alt="user" class="user-image">
+                            <h3 class="name">Soldier 11</h3>
+                            <i class="Feedback">I don't care where you've been, but whatever the case, I await my orders.</i>
+                        </li>
+                    </ul>
+                    <div class="swiper-pagination"></div>
+                    <div class="swiper-slide-button swiper-button-prev"></div>
+                    <div class="swiper-slide-button swiper-button-next"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="testimonials-section" id="bluearchive" style="display: none;">
+        <h2 class="section-title">Blue Archive</h2>
+        <div class="sekolah-filters">
+            <button class="sekolah-btn" data-sekolah="all">All</button>
+            <button class="sekolah-btn" data-sekolah="preview">preview</button>
+            <button class="sekolah-btn" data-sekolah="abydos">Abydos </button>
+            <button class="sekolah-btn" data-sekolah="gehenna">Gehenna </button>
+            <button class="sekolah-btn" data-sekolah="millennium">Millennium </button>
+            <button class="sekolah-btn" data-sekolah="trinity">Trinity </button>
+            <button class="sekolah-btn" data-sekolah="hyakkiyako">Hyakkiyako </button>
+            <button class="sekolah-btn" data-sekolah="shanhaijing">Shanhaijing </button>
+            <button class="sekolah-btn" data-sekolah="redwinter">Red Winter </button>
+            <button class="sekolah-btn" data-sekolah="valkyrie">Valkyrie </button>
+            <button class="sekolah-btn" data-sekolah="srt">SRT </button>
+            <button class="sekolah-btn" data-sekolah="arius">Arius</button>
+        </div>
+        <div class="section-content">
+            <div class="slider-content swiper">
+                <div class="slider-wrapper">
+                    <ul class="testimonials-list swiper-wrapper">
+                        <!-- Blue Archive characters here -->
+                        <li class="testimonial swiper-slide" data-sekolah="preview">
+                            <img src="abydos.jpg"alt="user" class="user-image">
+                            <h3 class="name">Abydos High School</h3>
+                            <i class="Feedback">The longest running school in Kivotos, formerly thriving and boasting incredible financial and military power, before the unnatural and unfortunate desertification struck.</i>
+                        </li>
+                        <li class="testimonial swiper-slide" data-sekolah="preview">
+                            <img src="gehenna.jpg"alt="user" class="user-image">
+                            <h3 class="name">Gehenna Academy</h3>
+                            <i class="Feedback">Freedom, chaos, and trouble! That is the word for Gehenna Academy. "I don't care about the rules, it's already hard because there are a lot of illegal circles!" Because it is such a school, there are many students who are good or bad.However, because of that, the reputation from other schools is ...</i>
+                        </li>
+                        <li class="testimonial swiper-slide" data-sekolah="preview">
+                            <img src="millenium.jpg"alt="user" class="user-image">
+                            <h3 class="name">Millennium Science School</h3>
+                            <i class="Feedback">Millennium Science School, a huge school specializing in science and technology! Although its history is still short, it is highly regarded for its cutting-edge science and technology that is unrivaled by other schools,</i>
+                        </li>
+                        <li class="testimonial swiper-slide" data-sekolah="preview">
+                            <img src="trinity.jpg"alt="user" class="user-image">
+                            <h3 class="name">Trinity General School</h3>
+                            <i class="Feedback">Trinity General School, one of the largest schools in Kivotos with a large chapel! They're on bad terms with Gehenna Academy, probably because there are many graceful and good students who use Bunburyodo as a model.</i>
+                        </li>
+                        <li class="testimonial swiper-slide" data-sekolah="preview">
+                            <img src="hyakkiyako.jpg"alt="user" class="user-image">
+                            <h3 class="name">Hyakkiyako Alliance Academy</h3>
+                            <i class="Feedback">Hyakkiyako Alliance Academy is a school of tourism, with gourmet food, hot springs, festivals and more! The academy is a coalition of clubs and committees, each with their own rules and regulations, so there is no formal student council.</i>
+                        </li>
+                        <li class="testimonial swiper-slide" data-sekolah="preview">
+                            <img src="shanhaijing.jpg"alt="user" class="user-image">
+                            <h3 class="name">Shanhaijing Senior Secondary School</h3>
+                            <i class="Feedback">Shanhaijing Senior Secondary School (山海経高級中学校) or Shanhaijing Secondary School on Global, is one of the many schools in Kivotos.</i>
+                        </li>
+                        <li class="testimonial swiper-slide" data-sekolah="preview">
+                            <img src="redwinter.jpg"alt="user" class="user-image">
+                            <h3 class="name">Red Winter Federal Academy</h3>
+                            <i class="Feedback">Red Winter Federal Academy (レッドウィンター連邦学園) is one of the many schools in Kivotos.</i>
+                        </li>
+                        <li class="testimonial swiper-slide" data-sekolah="preview">
+                            <img src="valkyrie.jpg"alt="user" class="user-image">
+                            <h3 class="name">Valkyrie Police Academy</h3>
+                            <i class="Feedback">Valkyrie Police Academy (ヴァルキューレ警察学校) or Valkyrie Police School on Global, also known as the Kivotos Student Police Department (KSPD), is one of the many schools in Kivotos.</i>
+                        </li>
+                        <li class="testimonial swiper-slide" data-sekolah="preview">
+                            <img src="srtba.jpg"alt="user" class="user-image">
+                            <h3 class="name">SRT Special Academy</h3>
+                            <i class="Feedback">SRT Special Academy (SRT特殊学園) was one of the many schools in Kivotos.</i>
+                        </li>
+                        <li class="testimonial swiper-slide" data-sekolah="preview">
+                            <img src="arius.jpg"alt="user" class="user-image">
+                            <h3 class="name">Arius Branch School</h3>
+                            <i class="Feedback">An exiled branch of Trinity, now living hidden underground filled with anger and hatred, waiting to one day seek revenge and pass judgement onto the school that brought all those suffering upon them.</i>
+                        </li>
+                        <li class="testimonial swiper-slide" data-sekolah="abydos">
+                            <img src="01_m_shiroko.png"alt="user" class="user-image">
+                            <h3 class="name">Sunaookami Shiroko</h3>
+                            <i class="Feedback">The sports-loving field captain of the Countermeasures Committee of the Abydos High School. Shiroko is a girl of few words and shows little emotions alike. She may seem aloof with her appearance, but deeply cares about Abydos High School the most.</i>
+                        </li>
+                        <li class="testimonial swiper-slide" data-sekolah="abydos">
+                            <img src="02_l_hoshino.png" alt="user" class="user-image">
+                            <h3 class="name">Takanashi Hoshino</h3>
+                            <i class="Feedback">Takanashi Hoshino is the president of the Abydos Student Council and the only third-year of Abydos High School, and the current chairwoman for the Countermeasures Commitee. </i>
+                        </li>
+                        <li class="testimonial swiper-slide" data-sekolah="abydos">
+                            <img src="03_l_serika.png" alt="user" class="user-image">
+                            <h3 class="name">Kuromi Serika</h3>
+                            <i class="Feedback">A Treasurer working for the task force at the Countermeasure Committee for Abydos High.</i>
+                        </li>
+                        <li class="testimonial swiper-slide" data-sekolah="abydos">
+                            <img src="04_l_nonomi.png" alt="user" class="user-image">
+                            <h3 class="name">Izayoi Nonomi</h3>
+                            <i class="Feedback">A member of the task force of the Countermeasure Committee at Abydos High.                            </i>
+                        </li>
+                        <li class="testimonial swiper-slide" data-sekolah="abydos">
+                            <img src="ayane.jpg" alt="user" class="user-image">
+                            <h3 class="name">Okusora Ayane</h3>
+                            <i class="Feedback">A serious secretary of Abydos' Countermeasures Committee. The type of girl who values principles and rules, she's doing her earnest to restore Abydos High.</i>
+                        </li>
+                        <li class="testimonial swiper-slide" data-sekolah="gehenna">
+                            <img src="05_m_hina.png" alt="user" class="user-image">
+                            <h3 class="name">Sorasaki Hina</h3>
+                            <i class="Feedback">She is a 3rd year student and the current chairwoman of Gehenna's Prefect Team, who is rightfully feared by every student in the academy, if not all of Kivotos.</i>
+                        </li>
+                        <li class="testimonial swiper-slide" data-sekolah="gehenna">
+                            <img src="06_m_iori.png"alt="user" class="user-image">
+                            <h3 class="name">Shiromi Iori</h3>
+                            <i class="Feedback">A 2nd year student and a cold-blooded specialist of the feared Prefect Team. As the field captain of its assault corps, she immediately punishes students who violate the rules with overwhelming force whenever and wherever she finds them.</i>
+                        </li>
+                        <li class="testimonial swiper-slide" data-sekolah="gehenna">
+                            <img src="07_m_aru.png" alt="user" class="user-image">
+                            <h3 class="name">Rikuhachima Aru</h3>
+                            <i class="Feedback">The self-proclaimed “Boss” (i.e. president) of Club Problem Solver 68, Aru is a 2nd year student at Gehenna Academy. She conducts her illegal business however she pleases.</i>
+                        </li>
+                        <li class="testimonial swiper-slide" data-sekolah="gehenna">
+                            <img src="08_m_mutsuki.png" alt="user" class="user-image">
+                            <h3 class="name">Asagi Mutsuki</h3>
+                            <i class="Feedback">A 2nd year student at Gehenna Academy, Mutsuki holds the title of "Chief of staff" and is the assault activist and go-getter of Problem Solver 68.</i>
+                        </li>
+                        <li class="testimonial swiper-slide" data-sekolah="gehenna">
+                            <img src="makoto.jpg" alt="user" class="user-image">
+                            <h3 class="name">Hanuma Makoto</h3>
+                            <i class="Feedback">Chairman of the Gehenna Academy Student Council "Pandemonium Society". In other words, she is Gehenna's president.</i>
+                        </li>
+                        <li class="testimonial swiper-slide" data-sekolah="gehenna">
+                            <img src="iroha.jpg" alt="user" class="user-image">
+                            <h3 class="name">Natsume Iroha</h3>
+                            <i class="Feedback">A member of Pandemonium Society who often views everything as a pain. Not surprising, considering her boss is always stirring up trouble and the chaotic nature of Gehenna itself.</i>
+                        </li>
+                        <li class="testimonial swiper-slide" data-sekolah="gehenna">
+                            <img src="ibuki.jpg" alt="user" class="user-image">
+                            <h3 class="name">Tanga Ibuki</h3>
+                            <i class="Feedback">Ibuki is the energetic mascot girl and the councilor of the Pandemonium Society. She is a well-behaved girl who works hard today so as not to be a nuisance to her seniors! Her fellow club members like to dote on her and will do anything to punish whoever makes her sad.</i>
+                        </li>
+                        <li class="testimonial swiper-slide" data-sekolah="gehenna">
+                            <img src="ako.jpg" alt="user" class="user-image">
+                            <h3 class="name">Amau Ako</h3>
+                            <i class="Feedback">Ako, an administrative officer of the Disciplinary Committee, belonging to Gehenna Academy!</i>
+                        </li>
+                        <li class="testimonial swiper-slide" data-sekolah="gehenna">
+                            <img src="chinatsu.jpg" alt="user" class="user-image">
+                            <h3 class="name">HinomiyaChinatsu</h3>
+                            <i class="Feedback">Enrolled at Gehenna Academy, Chinatsu is a 1st year student in charge of medical aid for the Prefect Team.</i>
+                        </li>
+                        <li class="testimonial swiper-slide" data-sekolah="gehenna">
+                            <img src="kayoko.jpg" alt="user" class="user-image">
+                            <h3 class="name">Onikata Kayoko</h3>
+                            <i class="Feedback">The "Section chief" of Problem Solver 68 and a 3rd year student at Gehenna Academy.</i>
+                        </li>
+                        <li class="testimonial swiper-slide" data-sekolah="gehenna">
+                            <img src="haruka.jpg" alt="user" class="user-image">
+                            <h3 class="name">Igusa Haruka</h3>
+                            <i class="Feedback">An "entry-level employee" of Problem Solver 68 and 1st year student at Gehenna Academy. Despite being shy and possessing cripplingly low self-esteem, her ideas and determination to commit any act makes her the scariest and most dangerous amongst the already erratic fixers.</i>
+                        </li>
+                        <li class="testimonial swiper-slide" data-sekolah="gehenna">
+                            <img src="haruna.jpg" alt="user" class="user-image">
+                            <h3 class="name">Kurodate Haruna</h3>
+                            <i class="Feedback">The president of the Gourmet Research Society and 3rd year student enrolled at Gehenna Academy.</i>
+                        </li>
+                        <li class="testimonial swiper-slide" data-sekolah="gehenna">
+                            <img src="junko.jpg" alt="user" class="user-image">
+                            <h3 class="name">Akashi Junko</h3>
+                            <i class="Feedback">She is a 1st year student and a prim yet ravenous eater in Gehenna's Gourmet Research Society.</i>
+                        </li>
+                        <li class="testimonial swiper-slide" data-sekolah="gehenna">
+                            <img src="izumi.jpg" alt="user" class="user-image">
+                            <h3 class="name">Shishido Izumi</h3>
+                            <i class="Feedback">A gluttonous 2nd year student who belongs to Gehenna's Gourmet Research Society.</i>
+                        </li>
+                        <li class="testimonial swiper-slide" data-sekolah="gehenna">
+                            <img src="akari.jpg" alt="user" class="user-image">
+                            <h3 class="name">Wanibuchi Akari</h3>
+                            <i class="Feedback">A 3rd year student and member of the Gourmet Research Society enrolled at Gehenna Academy. While fundamentally a calm and good-natured girl, like anyone else at Gehenna, she will occasionally cause great trouble for others.</i>
+                        </li>
+                        <li class="testimonial swiper-slide" data-sekolah="millennium">
+                            <img src="09_m_yuuka.png" alt="user" class="user-image">
+                            <h3 class="name">Hayase Yuuka</h3>
+                            <i class="Feedback">The treasurer of the Millennium Academy Student Council, "Seminar". She is strict about money and often quarrels with other club activities from her standpoint.</i>
+                        </li>
+                        <li class="testimonial swiper-slide" data-sekolah="millennium">
+                            <img src="10_m_neru.png" alt="user" class="user-image">
+                            <h3 class="name">MikamoNeru</h3>
+                            <i class="Feedback">The Leader of the Millennium's secret organization, Cleaning&Clearing C&C.</i>
+                        </li>
+                        <li class="testimonial swiper-slide" data-sekolah="millennium">
+                            <img src="11_m_karin.png" alt="user" class="user-image">
+                            <h3 class="name">Kakudate Karin</h3>
+                            <i class="Feedback">She is an agent of the Millennium's secret organization, C&C. Her codename is "zero-two," and she is responsible for providing strong fire support from the backlines.Personality</i>
+                        </li>
+                        <li class="testimonial swiper-slide" data-sekolah="millennium">
+                            <img src="12_m_akane.png" alt="user" class="user-image">
+                            <h3 class="name">Murokasa Akane</h3>
+                            <i class="Feedback">An agent of the Millennium's secret organization, C&C. Her codename is "zero-three", an essential employee at "cleaning up".</i>
+                        </li>
+                        <li class="testimonial swiper-slide" data-sekolah="millennium">
+                            <img src="rio.jpg" alt="user" class="user-image">
+                            <h3 class="name"> Tsukatsuki Rio</h3>
+                            <i class="Feedback">Rio is the student council president of Millennium. Cold and calculating, she cares more about objective facts than emotions. She is at odds with Himari due to their contrasting personalities.</i>
+                        </li>
+                        <li class="testimonial swiper-slide" data-sekolah="millennium">
+                            <img src="noa.jpg" alt="user" class="user-image">
+                            <h3 class="name">Ushio Noa</h3>
+                            <i class="Feedback">Noa is the secretary of the student council "Seminar" at Millennium Science School. She has a very good memory and can memorize almost everything she sees or hears once, including decisions made at the "Seminar" and records of the contents of meetings.</i>
+                        </li>
+                        <li class="testimonial swiper-slide" data-sekolah="millennium">
+                            <img src="chihiro.jpg" alt="user" class="user-image">
+                            <h3 class="name">Kagami Chihiro</h3>
+                            <i class="Feedback">Chihiro is the deputy director of the hacker group Veritas! Although she has outstanding abilities, she tries not to abuse them, and seems to be the conscience of Veritas, which is said to be full of mischievous children...</i>
+                        </li>
+                        <li class="testimonial swiper-slide" data-sekolah="millennium">
+                            <img src="maki.jpg" alt="user" class="user-image">
+                            <h3 class="name">Konuri Maki</h3>
+                            <i class="Feedback">An artistic member of the hacker group "Veritas" at Millennium Science School.</i>
+                        </li>
+                        <li class="testimonial swiper-slide" data-sekolah="millennium">
+                            <img src="hare.jpg" alt="user" class="user-image">
+                            <h3 class="name">Omogari Hare</h3>
+                            <i class="Feedback">The Engineer for a group of hackers "Veritas" at Millennium Science School. She's friendly to the other students and a good listener.</i>
+                        </li>
+                        <li class="testimonial swiper-slide" data-sekolah="millennium">
+                            <img src="kotama.jpg" alt="user" class="user-image">
+                            <h3 class="name">Otose Kotama</h3>
+                            <i class="Feedback">A Comm. leader for a group of hackers "Veritas" at Millennium Science School.She is a skilled eavesdropper and likes to snoop on anyone's secret conversations.</i>
+                        </li>
+                        <li class="testimonial swiper-slide" data-sekolah="millennium">
+                            <img src="asuna.jpg" alt="user" class="user-image">
+                            <h3 class="name">Ichinose Asuna</h3>
+                            <i class="Feedback">An agent of the Millennium's secret organization, C&C. Her codename is "zero-one" and a veteran of overcoming many challenges with her brutal instinct and intuition and super luck.</i>
+                        </li>
+                        <li class="testimonial swiper-slide" data-sekolah="millennium">
+                            <img src="toki.jpg" alt="user" class="user-image">
+                            <h3 class="name">Asuma Toki</h3>
+                            <i class="Feedback">Toki is the mysterious fifth member of C&C with the codename "04" (Zero-Four) in Millennium. Unlike the rest of C&C members, she is assigned as Rio's personal bodyguard at Seminar. As such, she is equipped with special armaments designed by Rio.</i>
+                        </li>
+                        <li class="testimonial swiper-slide" data-sekolah="millennium">
+                            <img src="himari.jpg" alt="user" class="user-image">
+                            <h3 class="name">Akeboshi Himari</h3>
+                            <i class="Feedback">Himari is a genius hacker. She was the former head of Veritas and the current head of the Paranormal Affairs Department. </i>
+                        </li>
+                        <li class="testimonial swiper-slide" data-sekolah="millennium">
+                            <img src="eimi.jpg" alt="user" class="user-image">
+                            <h3 class="name">Izumimoto Eimi</h3>
+                            <i class="Feedback">A member of the Paranormal Affairs Department of Millennium Academy. She's a quiet girl and others have trouble with what she's thinking.</i>
+                        </li>
+                        <li class="testimonial swiper-slide" data-sekolah="trinity">
+                            <img src="13_m_hihumi.png" alt="user" class="user-image">
+                            <h3 class="name">Ajitani Hifumi</h3>
+                            <i class="Feedback">An emotional and sensitive girl in the Supplementary Lessons Department of Trinity General School.</i>
+                        </li>
+                        <li class="testimonial swiper-slide" data-sekolah="trinity">
+                            <img src="14_m_tsurugi.png" alt="user" class="user-image">
+                            <h3 class="name">Kenjaki Tsurugi</h3>
+                            <i class="Feedback">While enrolled as a student of Trinity and chairman of the Justice Realization Committee, Tsurugi is also the Trinity's strategic weapon.</i>
+                        </li>
+                        <li class="testimonial swiper-slide" data-sekolah="trinity">
+                            <img src="15_m_hasumi.png" alt="user" class="user-image">
+                            <h3 class="name">Hanekawa Hasumi</h3>
+                            <i class="Feedback">The No. 2 on Trinity's Justice Realization Committee. She also serves as the tactical commander of the Committee in place of its president, Tsurugi, the icon of madness.</i>
+                        </li>
+                        <li class="testimonial swiper-slide" data-sekolah="trinity">
+                            <img src="hanako.jpg" alt="user" class="user-image">
+                            <h3 class="name">Urawa Hanako</h3>
+                            <i class="Feedback">The problem child of the Supplementary Lessons Department. Despite her appearance, she's a student who only says naughty things when she talks, and her members always seem to be nervous...</i>
+                        </li>
+                        <li class="testimonial swiper-slide" data-sekolah="trinity">
+                            <img src="kazusa.jpg" alt="user" class="user-image">
+                            <h3 class="name">Kyoyama Kazusa</h3>
+                            <i class="Feedback">A quiet and easy-going member of the After-School Sweets Club. Kazusa is always getting dragged into whatever strange antics the other club members are up to, but deep down in her kind heart she cherishes those moments.</i>
+                        </li>
+                        <li class="testimonial swiper-slide" data-sekolah="trinity">
+                            <img src="azusa.jpg" alt="user" class="user-image">
+                            <h3 class="name">Shirasu Azusa</h3>
+                            <i class="Feedback">An ice queen who belongs to Trinity's Supplementary Lessons Department.</i>
+                        </li>
+                        <li class="testimonial swiper-slide" data-sekolah="trinity">
+                            <img src="shimiko.jpg" alt="user" class="user-image">
+                            <h3 class="name">Endo Shimiko</h3>
+                            <i class="Feedback">A book worm and librarian of Library Committee of Trinity General School. She is one of the few students who has read the through the entire book collection in Trinity's Library.</i>
+                        </li>
+                        <li class="testimonial swiper-slide" data-sekolah="trinity">
+                            <img src="hanae.jpg" alt="user" class="user-image">
+                            <h3 class="name">Asagao Hanae</h3>
+                            <i class="Feedback">A lively and cheerful freshwoman enrolled as a Knights Hospitaller for Order of the Relief at Trinity School.</i>
+                        </li>
+                        <li class="testimonial swiper-slide" data-sekolah="trinity">
+                            <img src="mari.jpg" alt="user" class="user-image">
+                            <h3 class="name">Iochi Mari</h3>
+                            <i class="Feedback">A sincere girl of the Sisterhood who manages the cathedral of Trinity General School. She has a cute impression, but is much calmer than her age and has a lot of character. She has a dream to become the best Sister of Trinity in the future.</i>
+                        </li>
+                        <li class="testimonial swiper-slide" data-sekolah="trinity">
+                            <img src="sakurako.jpg" alt="user" class="user-image">
+                            <h3 class="name">Utazumi Sakurako</h3>
+                            <i class="Feedback">The leader of the Sisterhood, Sakurako. As a sister, she's very helpful and is willing to listen to anyone. However, she mostly spends her time in the cathedral, not knowing of the current trends outside.</i>
+                        </li>
+                        <li class="testimonial swiper-slide" data-sekolah="trinity">
+                            <img src="mika.jpg" alt="user" class="user-image">
+                            <h3 class="name">Misono Mika</h3>
+                            <i class="Feedback">A member of Trinity's student council, Tea Party, and one of its three student council presidents. She is the childhood friend of Nagisa and has known her for ten years. She calls her Nagi-chan. Unlike the other two presidents of the Tea Party, she isn't particularly bright when it comes to politics, but her strength is not to be underestimated.</i>
+                        </li>
+                        <li class="testimonial swiper-slide" data-sekolah="trinity">
+                            <img src="nagisa.jpg" alt="user" class="user-image">
+                            <h3 class="name">Kirifuji Nagisa</h3>
+                            <i class="Feedback">One of the three presidents of the Tea Party, Trinity's student council, and the leader of the Filius Faction. Nagisa is also Mika's childhood friend. In contrast to Mika, Nagisa thinks first before acting, sometimes thinking a bit too much to the point where she causes problems for others who are uninvolved or are supposed to be considered innocent.</i>
+                        </li>
+                        <li class="testimonial swiper-slide" data-sekolah="trinity">
+                            <img src="koharu.jpg" alt="user" class="user-image">
+                            <h3 class="name">Shimoe Koharu</h3>
+                            <i class="Feedback">Member of the Supplementary Lesson Department of Trinity General Academy.</i>
+                        </li>
+                        <li class="testimonial swiper-slide" data-sekolah="hyakkiyako">
+                            <img src="kaho.jpg" alt="user" class="user-image">
+                            <h3 class="name">Kuwakami Kaho</h3>
+                            <i class="Feedback">Vice president of the Hyakkiyako Academy and the Lead Strategist for the Tourism and Culture Public Relations Support Team. A member of the Yin-Yang Club, she is in charge of Hyakkiyako's public relations and marketing. </i>
+                        </li>
+                        <li class="testimonial swiper-slide" data-sekolah="hyakkiyako">
+                            <img src="chise.jpg" alt="user" class="user-image">
+                            <h3 class="name">Waraku Chise</h3>
+                            <i class="Feedback">Chise is a friendly, nerdy and airhead schoolgirl in the Yin-Yang Club at Hyakkiyako Academy. She joined the club because of her interest in traditional culture such as haiku.</i>
+                        </li>
+                        <li class="testimonial swiper-slide" data-sekolah="hyakkiyako">
+                            <img src="kikyo.jpg" alt="user" class="user-image">
+                            <h3 class="name">Kiryuu Kikyo</h3>
+                            <i class="Feedback">Kikyou is the operational strategist of the Hyakkaryouran Conflict Resolution Council. She values common sense, logic, and reason.</i>
+                        </li>
+                        <li class="testimonial swiper-slide" data-sekolah="hyakkiyako">
+                            <img src="shizuko.jpg" alt="user" class="user-image">
+                            <h3 class="name">Kawawa Shizuko</h3>
+                            <i class="Feedback">The president of the Festival Management Committee, owner and poster girl of the coffee shop of the classic-style cafe, Momoyo Hall.</i>
+                        </li>
+                        <li class="testimonial swiper-slide" data-sekolah="hyakkiyako">
+                            <img src="tsubaki.jpg" alt="user" class="user-image">
+                            <h3 class="name">Kasuga Tsubaki</h3>
+                            <i class="Feedback">Enrolled at Hyakkiyako Alliance Academy, Tsubaki is president of the Etiquette Training Society.</i>
+                        </li>
+                        <li class="testimonial swiper-slide" data-sekolah="hyakkiyako">
+                            <img src="kaede.jpg" alt="user" class="user-image">
+                            <h3 class="name">Isami Kaede</h3>
+                            <i class="Feedback">Kaede is the energetic spirit of Etiquette Training Society. Originally a country girl, she met the two members of the Etiquette Training Society by chance, and admiring their appearance, she decided to join the club. </i>
+                        </li>
+                        <li class="testimonial swiper-slide" data-sekolah="hyakkiyako">
+                            <img src="izuna.jpg" alt="user" class="user-image">
+                            <h3 class="name">Kuda Izuna</h3>
+                            <i class="Feedback">A 1st year student and member of the Ninjutsu Research Club of the Allied Hyakkiyako Academy, Izuna is a bright and bubbly girl who dreams of one day becoming "the best ninja of Kivotos".</i>
+                        </li>
+                        <li class="testimonial swiper-slide" data-sekolah="hyakkiyako">
+                            <img src="michiru.jpg" alt="user" class="user-image">
+                            <h3 class="name">Chidori Michiru</h3>
+                            <i class="Feedback">Michiru is the club president of the Ninjutsu Research Department. Every day, she works hard with her fellow club members in uploading videos and doing all sorts of other activities in order to show everyone in Kivotos how cool ninjas are!</i>
+                        </li>
+                        <li class="testimonial swiper-slide" data-sekolah="hyakkiyako">
+                            <img src="tsukuyo.jpg" alt="user" class="user-image">
+                            <h3 class="name">Oono Tsukuyo</h3>
+                            <i class="Feedback">Tsukuyo is a member of the Ninjutsu Research Department! She's very sensitive about her large size and often worries about being too big.</i>
+                        </li>
+                        <li class="testimonial swiper-slide" data-sekolah="hyakkiyako">
+                            <img src="wakamo.jpg" alt="user" class="user-image">
+                            <h3 class="name">Kosaka Wakamo</h3>
+                            <i class="Feedback">Wakamo is a suspended student from Hyakkiyako Alliance Academy and one of the "Seven Prisoners" who escaped from the Federal Corrections Bureau.</i>
+                        </li>
+                        <li class="testimonial swiper-slide" data-sekolah="shanhaijing">
+                            <img src="kisaki.jpg" alt="user" class="user-image">
+                            <h3 class="name">Ryuuge Kisaki</h3>
+                            <i class="Feedback">Kisaki is the head of the Xuanlong Office and the student council president of Shanhaijing. She is called the Master (門主様) by the students of the school.</i>
+                        </li>
+                        <li class="testimonial swiper-slide" data-sekolah="shanhaijing">
+                            <img src="mina.jpg" alt="user" class="user-image">
+                            <h3 class="name">Konoe Mina</h3>
+                            <i class="Feedback">Mina is the executive director of the student council "Xuanlong Office" and the bodyguard of the student council president. </i>
+                        </li>
+                        <li class="testimonial swiper-slide" data-sekolah="shanhaijing">
+                            <img src="rumi.jpg" alt="user" class="user-image">
+                            <h3 class="name">Akeshiro Rumi</h3>
+                            <i class="Feedback">Rumi is the president of Xuanwu Merchant Association of the Gourmet District. She seems to be an enemy of the student council of Xuanlong Office, which is wary of the growth of its own power.</i>
+                        </li>
+                        <li class="testimonial swiper-slide" data-sekolah="shanhaijing">
+                            <img src="reijo.jpg" alt="user" class="user-image">
+                            <h3 class="name">Kayama Reijo</h3>
+                            <i class="Feedback">The bodyguard of the Xuanwu Merchant Association, tasked to protect the place from any bad students. As sharp as she can be, one talk about kung fu though and she can go on and on, catching her off guard...</i>
+                        </li>
+                        <li class="testimonial swiper-slide" data-sekolah="shanhaijing">
+                            <img src="kaguya.jpg" alt="user" class="user-image">
+                            <h3 class="name">Urushibara Kaguya</h3>
+                            <i class="Feedback">The head of the Peking Opera Club, a club focused on preserving the popular Peking Opera dance as part of Shanhaijing's traditions and history. </i>
+                        </li>
+                        <li class="testimonial swiper-slide" data-sekolah="shanhaijing">
+                            <img src="saya.jpg" alt="user" class="user-image">
+                            <h3 class="name">Yakushi Saya</h3>
+                            <i class="Feedback">Genius inventor at Shanhaijing Senior Secondary School.</i>
+                        </li>
+                        <li class="testimonial swiper-slide" data-sekolah="shanhaijing">
+                            <img src="shun.jpg" alt="user" class="user-image">
+                            <h3 class="name">Shunohara Shun</h3>
+                            <i class="Feedback">Instructor of the Training Support Department "Plum Blossom Garden" of Shanhaijing Senior Secondary School.</i>
+                        </li>
+                        <li class="testimonial swiper-slide" data-sekolah="shanhaijing">
+                            <img src="kokona.jpg" alt="user" class="user-image">
+                            <h3 class="name">Shunohara Kokona</h3>
+                            <i class="Feedback">The younger sister of Sunohara Shun and, like her, is also an instructor at Plum Blossom Garden.</i>
+                        </li>
+                        <li class="testimonial swiper-slide" data-sekolah="shanhaijing">
+                            <img src="kai.jpg" alt="user" class="user-image">
+                            <h3 class="name">Shintani Kai</h3>
+                            <i class="Feedback">Kai was a student at Shanhaijing that was exiled for her involvement in smuggling secret medicines. She operates under the alias of the Five Dust Macaque (五塵の彌猴).</i>
+                        </li>
+                        <li class="testimonial swiper-slide" data-sekolah="redwinter">
+                            <img src="cherino.jpg" alt="user" class="user-image">
+                            <h3 class="name">Renkawa Cherino</h3>
+                            <i class="Feedback">Despite her small stature, Cherino is the student council president of Red Winter Federal Academy. She always wears a fake moustache as she believes it's a symbol of authority.</i>
+                        </li>
+                        <li class="testimonial swiper-slide" data-sekolah="redwinter">
+                            <img src="tomoe.jpg" alt="user" class="user-image">
+                            <h3 class="name">Sashiro Tomoe</h3>
+                            <i class="Feedback">She's extremely obsessed with Cherino to the point of knowing virtually everything about her. In short, she's a walking Cherino encyclopedia.</i>
+                        </li>
+                        <li class="testimonial swiper-slide" data-sekolah="redwinter">
+                            <img src="marina.jpg" alt="user" class="user-image">
+                            <h3 class="name">Ikekura Marina</h3>
+                            <i class="Feedback">Marina is the chairperson of the security committee in charge of maintaining security in Red Winter. Whenever there is a problem in Red Winter, she is the first to go out, but as a result, she often gets lost...</i>
+                        </li>
+                        <li class="testimonial swiper-slide" data-sekolah="redwinter">
+                            <img src="minori.jpg" alt="user" class="user-image">
+                            <h3 class="name">Yasumori Minori</h3>
+                            <i class="Feedback">Minori is the head of the Public Works Department at Red Winter. She is a skilled worker, but she is notorious among her employers for striking and demonstrating over trivial matters...</i>
+                        </li>
+                        <li class="testimonial swiper-slide" data-sekolah="redwinter">
+                            <img src="meru.jpg" alt="user" class="user-image">
+                            <h3 class="name">Himeki Meru</h3>
+                            <i class="Feedback">One of the members of the Knowledge Liberation Front of Red Winter Federal Academy. She likes GL works between women and is passionate about drawing with her own hands with her pen name being Meruly.</i>
+                        </li>
+                        <li class="testimonial swiper-slide" data-sekolah="redwinter">
+                            <img src="momiji.jpg" alt="user" class="user-image">
+                            <h3 class="name">Akiizumi Momiji</h3>
+                            <i class="Feedback">One of the members of the Knowledge Liberation Front. She is a literary girl fighting for the library's collection.</i>
+                        </li>
+                        <li class="testimonial swiper-slide" data-sekolah="redwinter">
+                            <img src="nodoka.jpg" alt="user" class="user-image">
+                            <h3 class="name">Amami Nodoka</h3>
+                            <i class="Feedback">A student who belongs to the Red Winter Federal Academy, but is currently suspended in the old school building No. 227 special class. The reason for the suspension is "stalking with a telescope".</i>
+                        </li>
+                        <li class="testimonial swiper-slide" data-sekolah="redwinter">
+                            <img src="shigure.jpg" alt="user" class="user-image">
+                            <h3 class="name">Mayoi Shigure</h3>
+                            <i class="Feedback">Red Winter's problem child. She is under house arrest in "No. 227 Special Class" after being suspended from school. The reason for the suspension is said to be "mixing vodka in her ration kompot (a drink made by soaking fruits in sugar)"</i>
+                        </li>
+                        <li class="testimonial swiper-slide" data-sekolah="valkyrie">
+                            <img src="kanna.jpg" alt="user" class="user-image">
+                            <h3 class="name">Ogata Kanna</h3>
+                            <i class="Feedback">The captain of Valkyrie's Public Security Bureau. She is an expert at interrogation through the usage of carrot and stick and is good at extracting information out of people. </i>
+                        </li>
+                        <li class="testimonial swiper-slide" data-sekolah="valkyrie">
+                            <img src="kirino.jpg" alt="user" class="user-image">
+                            <h3 class="name">Nakatsukasa Kirino</h3>
+                            <i class="Feedback">This is Kirino, a hot-blooded student from the Valkyrie Police Academy! She was assigned to the Community Safety Bureau because of her fatal shooting skills, but she never gave up and continues to strive to become a police officer who can brilliantly subdue criminals!</i>
+                        </li>
+                        <li class="testimonial swiper-slide" data-sekolah="valkyrie">
+                            <img src="fubuki.jpg" alt="user" class="user-image">
+                            <h3 class="name">Nemugaki Fubuki</h3>
+                            <i class="Feedback">A lazy student in the Public Safety Bureau of the Valkyrie Police Academy. She entered the Valkyrie Police Academy because she yearned for the carefree life of a civil servant. </i>
+                        </li>
+                        <li class="testimonial swiper-slide" data-sekolah="srt">
+                            <img src="myu.jpg" alt="user" class="user-image">
+                            <h3 class="name">Kasumizawa Miyu</h3>
+                            <i class="Feedback">Miyu, a member of the RABBIT platoon, entered SRT because she was recognized for her talent as a sniper. Now that the school is closed, she spends her days living in a park with other members of the platoon.</i>
+                        </li>
+                        <li class="testimonial swiper-slide" data-sekolah="srt">
+                            <img src="meru.jpg" alt="user" class="user-image">
+                            <h3 class="name">Kazekura Meru</h3>
+                            <i class="Feedback">A member of the RABBIT Platoon of SRT Special School. She is a dangerous girl who gets a thrill out of unleashing massive firepower without regards to any short or/and long term consequences.</i>
+                        </li>
+                        <li class="testimonial swiper-slide" data-sekolah="srt">
+                            <img src="saki.jpg" alt="user" class="user-image">
+                            <h3 class="name">Sorai Saki</h3>
+                            <i class="Feedback">Saki is a member of the RABBIT platoon, in charge of the "point man" who leads and scouts the unit. She is the type of student who always carries an instructional manual with SRT tactics written on it and emphasizes following the principles of the school.</i>
+                        </li>
+                        <li class="testimonial swiper-slide" data-sekolah="srt">
+                            <img src="miyako.jpg" alt="user" class="user-image">
+                            <h3 class="name">Tsukiyuki Miyako</h3>
+                            <i class="Feedback">Miyako is a member of SRT Special Academy and the leader of the RABBIT Platoon. Her facial expressions rarely change and she rarely shows her emotions.</i>
+                        </li>
+                        <li class="testimonial swiper-slide" data-sekolah="arius">
+                            <img src="saori.jpg" alt="user" class="user-image">
+                            <h3 class="name">Joumae Saori</h3>
+                            <i class="Feedback">An unparalleled expert in guerilla tactics, Saori can stay calm under pressure and doesn't hesitate to use whatever means necessary to accomplish her objective. </i>
+                        </li>
+                        <li class="testimonial swiper-slide" data-sekolah="arius">
+                            <img src="atsuko.jpg" alt="user" class="user-image">
+                            <h3 class="name">Hakari Atsuko</h3>
+                            <i class="Feedback">One of the four members of Arius Branch School's elite Arius Squad. She's silent and always communicates through sign language, but perhaps there's more to this than meets the eye.</i>
+                        </li>
+                        <li class="testimonial swiper-slide" data-sekolah="arius">
+                            <img src="misaki.jpg" alt="user" class="user-image">
+                            <h3 class="name">Imasino Misaki</h3>
+                            <i class="Feedback">One of the four members of Arius Branch School's elite Arius Squad. Misaki is a girl that gives off the impression of being an unsociable girl with little words. </i>
+                        </li>
+                        <li class="testimonial swiper-slide" data-sekolah="arius">
+                            <img src="hiyori.jpg" alt="user" class="user-image">
+                            <h3 class="name">Tsuchinaga Hiyori</h3>
+                            <i class="Feedback">One of the four members of Arius Branch School's elite Arius Squad. She is a cowardly student that gives off a gloomy impression. She appears to have a fear of pain and suffering, whether it be upon herself or even others. </i>
+                        </li>
+                    </ul>
+                    <div class="swiper-pagination"></div>
+                    <div class="swiper-slide-button swiper-button-prev"></div>
+                    <div class="swiper-slide-button swiper-button-next"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="testimonials-section" id="honkai" style="display: none;">
+        <h2 class="section-title">Honkai Star-Rail</h2>
+        <div class="faksi-filters">
+            <button class="faksi-btn" data-faksi="all">All</button>
+            <button class="faksi-btn" data-faksi="preview">Preview</button>
+            <button class="faksi-btn" data-faksi="astral">Astral Express</button>
+            <button class="faksi-btn" data-faksi="stelaron">Stelaron Hunter</button>
+            <button class="faksi-btn" data-faksi="hertaspace">Herta Space</button>
+            <button class="faksi-btn" data-faksi="jario">Jario-VI</button>
+            <button class="faksi-btn" data-faksi="xianzhou">Xianzhou</button>
+            <button class="faksi-btn" data-faksi="penacony">Penacony</button>
+            <button class="faksi-btn" data-faksi="cosmic">Cosmic</button>
+            <button class="faksi-btn" data-faksi="ipc">IPC</button>
+            <button class="faksi-btn" data-faksi="amphoreus">Amphoreus</button>
+        </div>
+        <div class="section-content">
+            <div class="slider-content swiper">
+                <div class="slider-wrapper">
+                    <ul class="testimonials-list swiper-wrapper">
+                        <!-- Honkai Star-Rail characters here -->
+                        <li class="testimonial swiper-slide" data-faksi="preview">
+                            <img src="astral express.png"alt="user" class="user-image">
+                            <h3 class="name">The Astral Express</h3>
+                            <i class="Feedback">The Astral Express, also called by the Xianzhou Alliance as the Chromatic Echelon,[1] is a large train that serves as one of the main settings of Honkai: Star Rail. It was created by Akivili, the Aeon of Trailblaze, </i>
+                        </li>
+                        <li class="testimonial swiper-slide" data-faksi="preview">
+                            <img src="stelaron.png"alt="user" class="user-image">
+                            <h3 class="name">Stellaron Hunters</h3>
+                            <i class="Feedback">The Stellaron Hunters are a faction in Honkai: Star Rail. Founded and led by Elio, they are a mysterious organization that collect Stellarons and are followers of the Finality.[1][2] They are said to work against the Interastral Peace Corporation[3]</i>
+                        </li>
+                        <li class="testimonial swiper-slide" data-faksi="preview">
+                            <img src="herta space.png"alt="user" class="user-image">
+                            <h3 class="name">Herta Space Station</h3>
+                            <i class="Feedback">Not content with the laws of the common world, the Genius Society's Herta set her sights on the unexplained existences of the galaxy, expecting those distant mysteries to satisfy her curiosity. To this end, Herta led the establishment of a museum-like starship and launched it towards the orbit, starting the research work to seal all strange existences among the stars. And the famous Herta Space Station was born.</i>
+                        </li>
+                        <li class="testimonial swiper-slide" data-faksi="preview">
+                            <img src="jariovi.png"alt="user" class="user-image">
+                            <h3 class="name">Jario-VI</h3>
+                            <i class="Feedback">Traversing across the snow plains, you can get a full view of Belobog, the only spot on the ice-cold world of Jarilo-VI that barely fits the definition of "a warm place." As the only remaining city with human civilization. Belobog has been given many grandiose titles: the last bastion of mankind against the Eternal Freeze, the land blessed by Qlipoth...</i>
+                        </li>
+                        <li class="testimonial swiper-slide" data-faksi="preview">
+                            <img src="xianzhou.png"alt="user" class="user-image">
+                            <h3 class="name">Xianzhou Alliance</h3>
+                            <i class="Feedback">The Xianzhou Luofu is one of the six flagships of the Xianzhou Alliance. It sails in the endless ocean of stars like a one-way arrow, shooting toward the Lord of the Hunt's destined enemy.</i>
+                        </li>
+                        <li class="testimonial swiper-slide" data-faksi="preview">
+                            <img src="penacony.png"alt="user" class="user-image">
+                            <h3 class="name">Penacony</h3>
+                            <i class="Feedback">A colossal structure located in the Asdana system, with the soaring hotel "The Reverie" as its iconic 
+                                landmark. 
+                                Once a frontier prison belonging to the IPC, The Family had modeled it to serve as an interstellar transportation hub and the gateway to the Sweetdream Paradise.</i>
+                        </li>
+                        <li class="testimonial swiper-slide" data-faksi="preview">
+                            <img src="ipc.png"alt="user" class="user-image">
+                            <h3 class="name">Interastral Peace Corporation</h3>
+                            <i class="Feedback">The Interastral Peace Corporation, abbreviated as the IPC, is an intergalactic mega corporation responsible for the economy of the entire cosmos.[1]</i>
+                        </li>
+                        <li class="testimonial swiper-slide" data-faksi="preview">
+                            <img src="cosmic.png"alt="user" class="user-image">
+                            <h3 class="name">Cosmic</h3>
+                            <i class="Feedback">The Galaxy Rangers is a voluntarily formed group that travels around the cosmos to uphold justice for the locals out of the belief that benevolence and justice must be upheld by personal action. </i>
+                        </li>
+                        <li class="testimonial swiper-slide" data-faksi="preview">
+                            <img src="amphoreus.png"alt="user" class="user-image">
+                            <h3 class="name">Amphoreus</h3>
+                            <i class="Feedback">Amphoreus, The Eternal Land is a segmentum hidden deep in the cosmos. It is severed from the outside and hard to detect or be encountered. It's hard to navigate to a place you can scarcely perceive, let alone pass through or arrive at the place itself</i>
+                        </li>
+                        <li class="testimonial swiper-slide" data-faksi="astral">
+                            <img src="himeko.jpg"alt="user" class="user-image">
+                            <h3 class="name">Himeko</h3>
+                            <i class="Feedback">Orang yang memperbaiki Astral Express.
+
+                                Demi menyaksikan langit berbintang yang luas, dia memutuskan untuk bertualang dengan Astral Express.
+                                
+                                Hobi dia adalah meracik kopi sendiri.</i>
+                        </li>
+                        <li class="testimonial swiper-slide" data-faksi="astral">
+                            <img src="march7.jpg"alt="user" class="user-image">
+                            <h3 class="name">March 7</h3>
+                            <i class="Feedback">Gadis yang sempat tertidur dalam es abadi dan tidak mengetahui masa lalunya.
+
+                                Dia memilih untuk bertualang dengan Astral Express demi mencari kebenaran asal-usulnya.
+                                
+                                Sampai saat ini dia sudah menyiapkan hampir 67 versi "kisah hidupnya".</i>
+                        </li>
+                        <li class="testimonial swiper-slide" data-faksi="stelaron">
+                            <img src="kafka.jpg"alt="user" class="user-image">
+                            <h3 class="name">Kafka</h3>
+                            <i class="Feedback">Anggota "Stellaron Hunter". Seorang profesional cantik yang tenang dan santai.
+                                Dia memanfaatkan keajaiban kata-kata untuk membuat Trailblazer menyerap Stellaron.
+                                Hobinya adalah berbelanja dan merapikan mantel.</i>
+                        </li>
+                        <li class="testimonial swiper-slide" data-faksi="stelaron">
+                            <img src="sw.jpg"alt="user" class="user-image">
+                            <h3 class="name">Silver Woof</h3>
+                            <i class="Feedback">Peretas hebat yang menganggap alam semesta sebagai permainan. Sistem pertahanan serumit apa pun dapat dipecahkan Silver Wolf dengan mudah. Pertarungan serangan peretasan dan pertahanan antara dia dan Screwllum dari "Genius Society" telah menjadi legenda di dunia peretas. Berapa banyak lagi level yang harus dikalahkan di alam semesta? Silver Wolf sangat menantikannya.</i>
+                        </li>
+                        <li class="testimonial swiper-slide" data-faksi="stelaron">
+                            <img src="firefly.jpg"alt="user" class="user-image">
+                            <h3 class="name">Firefly</h3>
+                            <i class="Feedback">Anggota Stellaron Hunter yang bertempur mengenakan zirah mekanis "SAM". Dia setia pada misinya dan pantang menyerah.
+                                Terlahir sebagai senjata untuk mengalahkan Swarm, kecepatan pertumbuhannya jauh di atas rata-rata, tetapi umur hidupnya sangat singkat.
+                                Dia bergabung dengan Stellaron Hunter demi menemukan peluang untuk "hidup" dan menemukan cara untuk melawan takdir.</i>
+                        </li>
+                        <li class="testimonial swiper-slide" data-faksi="hertaspace">
+                            <img src="theherta.jpg"alt="user" class="user-image">
+                            <h3 class="name">The Herta</h3>
+                            <i class="Feedback">"Genius Society" #83 yang terhormat, manusia, perempuan, muda, cantik, imut. Konon dia mengasingkan diri di perbatasan galaksi, nyaris tidak pernah melangkah keluar dari sana. Jadi kemunculannya kali ini .... Pasti karena ada masalah yang harus dia tangani sendiri, bukan?</i>
+                        </li>
+                        <li class="testimonial swiper-slide" data-faksi="hertaspace">
+                            <img src="ruanmei.jpg"alt="user" class="user-image">
+                            <h3 class="name">Ruan Mei</h3>
+                            <i class="Feedback">Seorang anggota Genius Society dan ahli bidang ilmu kehidupan. Dia bekerja sama dengan Herta dan timnya untuk mengembangkan Simulated Universe.</i>
+                        </li><li class="testimonial swiper-slide" data-faksi="hertaspace">
+                            <img src="asta.jpg"alt="user" class="user-image">
+                            <h3 class="name">Asta</h3>
+                            <i class="Feedback">Kepala Peneliti di Stasiun Luar Angkasa "Herta", juga nona besar dari keluarga aristokrat.Seorang astronom yang penuh dengan rasa ingin tahu, sangat pandai dalam menangani peneliti Stasiun Luar Angkasa ahli dalam mengatur staf yang berbeda-beda pendapat.</i>
+                        </li>
+                        <li class="testimonial swiper-slide" data-faksi="jario">
+                            <img src="bronya.jpg"alt="user" class="user-image">
+                            <h3 class="name">Bronya</h3>
+                            <i class="Feedback">Penerus dari "Supreme Guardian" Belobog.Memiliki arogansi seorang putri dan integritas seorang prajurit</i>
+                        </li>
+                        <li class="testimonial swiper-slide" data-faksi="jario">
+                            <img src="seele.jpg"alt="user" class="user-image">
+                            <h3 class="name">Seele</h3>
+                            <i class="Feedback">Tulang punggung kelompok pemberontak bawah tanah "Wildfire" yang punya nama alias "Babochka".Sifatnya blak-blakan, tapi memiliki hati yang sensitif dan peka.</i>
+                        </li>
+                        <li class="testimonial swiper-slide" data-faksi="jario">
+                            <img src="serval.jpg"alt="user" class="user-image">
+                            <h3 class="name">Serval</h3>
+                            <i class="Feedback">Mekanik Belobog, pernah menjadi peneliti Divisi Teknologi Architect.
+
+                                Dia adalah kakak perempuan Gepard Landau, tapi sifatnya sangat berbeda dengan adiknya.
+                                
+                                Dia sangat menyukai seni musik kuno yang ada sebelum Kebekuan Abadi yang dikenal dengan "Rock".</i>
+                        </li>
+                        <li class="testimonial swiper-slide" data-faksi="jario">
+                            <img src="natasha.jpg"alt="user" class="user-image">
+                            <h3 class="name">Natasha</h3>
+                            <i class="Feedback">Seorang dokter dari Underworld, sekaligus pengasuh anak-anak.
+
+                                Selain kebaikan dan perhatiannya, dia juga memiliki sisi berbahaya yang tersembunyi.</i>
+                        </li>
+                        <li class="testimonial swiper-slide" data-faksi="jario">
+                            <img src="pela.png"alt="user" class="user-image">
+                            <h3 class="name">Pela</h3>
+                            <i class="Feedback">Petugas sekretaris untuk Silvermane Guard.
+
+                                Dia memiliki kepribadian yang serius dan dihormati oleh para anggota Silvermane Guard lainnya.</i>
+                        </li>
+                        <li class="testimonial swiper-slide" data-faksi="jario">
+                            <img src="clara.png"alt="user" class="user-image">
+                            <h3 class="name">Clara</h3>
+                            <i class="Feedback">Gadis gelandangan yang hidup dengan robot.
+
+                                Pemalu, lembut dan polos.
+                                
+                                Dia berharap semua orang Underworld dapat menjadi keluarga.</i>
+                        </li>
+                        <li class="testimonial swiper-slide" data-faksi="jario">
+                            <img src="hook.png"alt="user" class="user-image">
+                            <h3 class="name">Hook</h3>
+                            <i class="Feedback">Bos (mengesahkan diri sendiri) tim petualangan bawah tanah "The Moles".
+
+                                Dia mencintai kebebasan, dan melihat kehidupan sebagai serangkaian petualangan.</i>
+                        </li>
+                        <li class="testimonial swiper-slide" data-faksi="jario">
+                            <img src="linx.jpg"alt="user" class="user-image">
+                            <h3 class="name">Linx</h3>
+                            <i class="Feedback">Penjelajah dataran salju dari Belobog, adik terkecil dari Landau bersaudara. Tenang dan sangat berenergi. Sering pergi menjelajahi dataran salju sendirian.</i>
+                        </li>
+                        <li class="testimonial swiper-slide" data-faksi="xianzhou">
+                            <img src="fugue.jpg"alt="user" class="user-image">
+                            <h3 class="name">Fugue</h3>
+                            <i class="Feedback">Gadis Foxian yang cerdik dan serba bisa. Penampilan, nama, dan identitasnya semua telah dirampas oleh orang lain.
+                                Takdir meninggalkannya secercah harapan untuk bertahan hidup, namun tanda jejak "Destruction" masih bergejolak di dalam dirinya.</i>
+                        </li>
+                        <li class="testimonial swiper-slide" data-faksi="xianzhou">
+                            <img src="fexiao.jpg"alt="user" class="user-image">
+                            <h3 class="name">Fexiao</h3>
+                            <i class="Feedback">Merlin's Claw dari Xianzhou "Yaoqing" dan salah satu dari Tujuh Jenderal Arbiter. Dia adalah individu yang unik dan berjiwa bebas, serta lugas dan menawan.</i>
+                        </li>
+                        <li class="testimonial swiper-slide" data-faksi="xianzhou">
+                            <img src="lingsha.jpg"alt="user" class="user-image">
+                            <h3 class="name">Lingsha</h3>
+                            <i class="Feedback">Master Tungku baru di Alchemy Commission Xianzhou "Luofu". Seorang dokter Vidyadhara yang cerdik dan bijaksana.</i>
+                        </li>
+                        <li class="testimonial swiper-slide" data-faksi="xianzhou">
+                            <img src="yunli.jpg"alt="user" class="user-image">
+                            <h3 class="name">Yunli</h3>
+                            <i class="Feedback">Seorang pemburu pedang dari Xianzhou "Zhuming" dan cucu perempuan kesayangan "Flaming Heart", Jenderal Huaiyan. Memiliki kepribadian yang jujur dan terus terang.</i>
+                        </li>
+                        <li class="testimonial swiper-slide" data-faksi="xianzhou">
+                            <img src="xueyi.jpg"alt="user" class="user-image">
+                            <h3 class="name">Xueyi</h3>
+                            <i class="Feedback">Hakim dari "Ten-Lords Commission" yang mengawasi hidup dan mati di "Luofu".
+                                Bertahun-tahun setelah kematiannya, dia kembali ke dunia untuk memenuhi misinya dengan "tubuh boneka".</i>
+                        </li>
+                        <li class="testimonial swiper-slide" data-faksi="xianzhou">
+                            <img src="hanya.png"alt="user" class="user-image">
+                            <h3 class="name">Hanya</h3>
+                            <i class="Feedback">Salah satu hakim dari Ten-Lords Commission Xianzhou "Luofu".
+                                Menerima perintah dari Ten-Lords, mengendalikan kuas ramalan, membaca jenis-jenis dosa manusia, serta memberikan hukuman penebusan karma.</i>
+                        </li>
+                        <li class="testimonial swiper-slide" data-faksi="xianzhou">
+                            <img src="huohuo.jpg"alt="user" class="user-image">
+                            <h3 class="name">Huohuo</h3>
+                            <i class="Feedback">Hakim magang Ten-Lords Commission dari Xianzhou Luofu, seorang gadis Foxian yang dirasuki oleh Heliobus.
+                                Dia adalah seorang gadis pemalu dan lemah yang takut pada segala macam hal-hal aneh, tapi bertanggung jawab untuk menarik dan menaklukkan roh jahat.</i>
+                        </li>
+                        <li class="testimonial swiper-slide" data-faksi="xianzhou">
+                            <img src="guinafen.jpg"alt="user" class="user-image">
+                            <h3 class="name">Guinafen</h3>
+                            <i class="Feedback">Pendatang asing yang tinggal di Xianzhou secara kebetulan. Kini dia adalah seniman jalanan yang penuh semangat.</i>
+                        </li>
+                        <li class="testimonial swiper-slide" data-faksi="xianzhou">
+                            <img src="jinshi.jpg"alt="user" class="user-image">
+                            <h3 class="name">Jingliu</h3>
+                            <i class="Feedback">"Bagi siapa yang hendak mempelajari ilmu pedangku, aku akan mengajarinya."
+
+                                Salah satu dari "Lima Petinggi Cloud" yang legendaris, dengan gelar "Transcendent Flash".</i>
+                        </li>
+                        <li class="testimonial swiper-slide" data-faksi="xianzhou">
+                            <img src="fuxuan.jpg"alt="user" class="user-image">
+                            <h3 class="name">Fuxuan</h3>
+                            <i class="Feedback">Kepala Divination Commission Xianzhou "Luofu". Orang yang menggunakan mata ketiga dan Matrix of Prescience untuk meramalkan rute Xianzhou serta hasil dari berbagai peristiwa.</i>
+                        </li>
+                        <li class="testimonial swiper-slide" data-faksi="xianzhou">
+                            <img src="yukong.jpg"alt="user" class="user-image">
+                            <h3 class="name">Yukung</h3>
+                            <i class="Feedback">Pemimpin Sky-Faring Commission dari Xianzhou "Luofu". Yukong adalah seorang pilot berpengalaman dan seorang penembak jitu. Sekarang dia terkubur di bawah tumpukan dokumen yang membosankan dan sulit untuk keluar.</i>
+                        </li>
+                        <li class="testimonial swiper-slide" data-faksi="xianzhou">
+                            <img src="sushang.png"alt="user" class="user-image">
+                            <h3 class="name">Sushang</h3>
+                            <i class="Feedback">Utusan Sky-Faring Commission dari Xianzhou "Luofu".
+
+                                Dia bepergian dengan delegasi bisnis, menjalin hubungan perdagangan dan aliansi dengan banyak dunia.</i>
+                        </li>
+                        <li class="testimonial swiper-slide" data-faksi="xianzhou">
+                            <img src="qinque.png"alt="user" class="user-image">
+                            <h3 class="name">Qingque</h3>
+                            <i class="Feedback">Peramal dari Divination Commission di Xianzhou "Luofu", dan juga seorang pengelola perpustakaan.</i>
+                        </li>
+                        <li class="testimonial swiper-slide" data-faksi="xianzhou">
+                            <img src="bailu.png"alt="user" class="user-image">
+                            <h3 class="name">Bailu</h3>
+                            <i class="Feedback">Tetua Tertinggi Vidyadhara yang juga dikenal sebagai "Wanita Penyembuh" di Xianzhou "Luofu".</i>
+                        </li>
+                        <li class="testimonial swiper-slide" data-faksi="penacony">
+                            <img src="robin.jpg"alt="user" class="user-image">
+                            <h3 class="name">Robin</h3>
+                            <i class="Feedback">Gadis yang anggun ini adalah penyanyi Halovian yang lahir di Penacony dan terkenal di seluruh penjuru alam semesta.
+                                Kali ini dia diundang oleh Family untuk kembali ke kampung halamannya dan mempersembahkan sebuah lagu di "Festival Charmony".</i>
+                        </li>
+                        <li class="testimonial swiper-slide" data-faksi="cosmic">
+                            <img src="acheron.jpg"alt="user" class="user-image">
+                            <h3 class="name">Acheron</h3>
+                            <i class="Feedback">Seorang pengelana yang mengaku dirinya adalah "Galaxy Ranger". Nama aslinya tidak diketahui. Dia mengenakan sebilah pedang panjang, dan dia menelusuri alam semesta seorang diri.</i>
+                        </li>
+                        <li class="testimonial swiper-slide" data-faksi="cosmic">
+                            <img src="blackswan.jpg"alt="user" class="user-image">
+                            <h3 class="name">Black Swan</h3>
+                            <i class="Feedback">Memokeeper dari "Garden of Recollection", peramal yang misterius dan elegan.
+                                Dia selalu tersenyum dengan lembut, mendengarkan ucapan orang lain dengan sabar, dan memanfaatkannya untuk masuk ke dalam "memori" dan menguasai seluruh informasi.</i>
+                        </li>
+                        <li class="testimonial swiper-slide" data-faksi="cosmic">
+                            <img src="sparkle.jpg"alt="user" class="user-image">
+                            <h3 class="name">Sparkle</h3>
+                            <i class="Feedback">Salah satu anggota "Masked Fool" yang sulit diprediksi dan selalu menghalalkan segala cara untuk mencapai tujuannya.</i>
+                        </li>
+                        <li class="testimonial swiper-slide" data-faksi="cosmic">
+                            <img src="rappa.jpg"alt="user" class="user-image">
+                            <h3 class="name">Rappa</h3>
+                            <i class="Feedback">Seorang gadis ajaib yang muncul di Penacony bagaikan granat setrum di kegelapan dini hari. Dia menganggap dirinya seorang ninja, dan mengaitkan segala sesuatu di dunia ini dengan "teknik ninja".</i>
+                        </li>
+                        <li class="testimonial swiper-slide" data-faksi="ipc">
+                            <img src="topaz.jpg"alt="user" class="user-image">
+                            <h3 class="name">Topaz</h3>
+                            <i class="Feedback">Salah satu manajer tingkat tinggi "Departemen Investasi Strategis" di bawah Interastral Peace Corporation, dan juga pemimpin dari Tim Piket Utang Khusus.</i>
+                        </li>
+                        <li class="testimonial swiper-slide" data-faksi="ipc">
+                            <img src="jade.jpg"alt="user" class="user-image">
+                            <h3 class="name">Jade</h3>
+                            <i class="Feedback">Manajer tingkat tinggi di "Departemen Investasi Strategis" IPC. Salah satu dari "Sepuluh Orang Berhati Batu", Batu Landasannya adalah "Jade - Pemberi Pinjaman".
+                                Seorang pemberi pinjaman yang dingin, anggun, ahli dalam membaca pikiran, dan memiliki hobi yang disebut dengan "Pegadaian Bonajade".</i>
+                        </li>
+                        <li class="testimonial swiper-slide" data-faksi="amphoreus">
+                            <img src="aglaea.jpg"alt="user" class="user-image">
+                            <h3 class="name">Aglaea</h3>
+                            <i class="Feedback">Di kota suci yang bermandikan cahaya fajar itu, sang penenun membelai benang emas dan menjalin takdir. Aglaea sang "Penenun Emas", Keturunan Chrysos yang membawa benih api "Romansa"... K</i>
+                        </li>
+                    </ul>
+                    <div class="swiper-pagination"></div>
+                    <div class="swiper-slide-button swiper-button-prev"></div>
+                    <div class="swiper-slide-button swiper-button-next"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+     <!-- galery -->
+      <section class="gallery-section"id="gallery">
+        <h2 class="section-title">EVENT HONKAI IMPACT 3RD</h2>
+        <div class="section-content">
+            <ul class="gallery-list">
+                <li class="gallery-item">
+                    <img src="h3.1.jpeg" alt="Gallery" class="gallery-image">
+                </li>
+                <li class="gallery-item">
+                    <img src="h3.2.jpeg" alt="Gallery" class="gallery-image">
+                </li>
+                <li class="gallery-item">
+                    <img src="h3.3.jpeg" alt="Gallery" class="gallery-image">
+                </li>
+                <li class="gallery-item">
+                    <img src="h3.4.jpeg" alt="Gallery" class="gallery-image">
+                </li>
+                <li class="gallery-item">
+                    <img src="h3.5.jpeg" alt="Gallery" class="gallery-image">
+                </li>
+                <li class="gallery-item">
+                    <img src="h3.6.jpeg" alt="Gallery" class="gallery-image">
+                </li>
+            </ul>
+        </div>
+      </section>
+      <section class="gallery-section"id="gallery">
+        <h2 class="section-title">Event Genshin Impact</h2>
+        <div class="section-content">
+            <ul class="gallery-list">
+                <li class="gallery-item">
+                    <img src="gi1.jpeg" alt="Gallery" class="gallery-image">
+                </li>
+                <li class="gallery-item">
+                    <img src="gi2.jpeg" alt="Gallery" class="gallery-image">
+                </li>
+                <li class="gallery-item">
+                    <img src="gi3.jpeg" alt="Gallery" class="gallery-image">
+                </li>
+                <li class="gallery-item">
+                    <img src="gi4.jpeg" alt="Gallery" class="gallery-image">
+                </li>
+                <li class="gallery-item">
+                    <img src="gi5.jpeg" alt="Gallery" class="gallery-image">
+                </li>
+                <li class="gallery-item">
+                    <img src="gi6.jpeg" alt="Gallery" class="gallery-image">
+                </li>
+            </ul>
+        </div>
+      </section>
+      <section class="gallery-section"id="gallery">
+        <h2 class="section-title">Event Honkai Star-Rail</h2>
+        <div class="section-content">
+            <ul class="gallery-list">
+                <li class="gallery-item">
+                    <img src="hsr1.jpeg" alt="Gallery" class="gallery-image">
+                </li>
+                <li class="gallery-item">
+                    <img src="hsr2.jpeg" alt="Gallery" class="gallery-image">
+                </li>
+                <li class="gallery-item">
+                    <img src="hsr3.jpeg" alt="Gallery" class="gallery-image">
+                </li>
+                <li class="gallery-item">
+                    <img src="hsr4.jpeg" alt="Gallery" class="gallery-image">
+                </li>
+                <li class="gallery-item">
+                    <img src="hsr5.jpeg" alt="Gallery" class="gallery-image">
+                </li>
+                <li class="gallery-item">
+                    <img src="hsr6.jpeg" alt="Gallery" class="gallery-image">
+                </li>
+            </ul>
+        </div>
+      </section>
+      <section class="gallery-section"id="gallery">
+        <h2 class="section-title">event Zenles Zone Zero</h2>
+        <div class="section-content">
+            <ul class="gallery-list">
+                <li class="gallery-item">
+                    <img src="zzz1.jpeg" alt="Gallery" class="gallery-image">
+                </li>
+                <li class="gallery-item">
+                    <img src="zzz2.jpeg" alt="Gallery" class="gallery-image">
+                </li>
+                <li class="gallery-item">
+                    <img src="zzz3.jpeg" alt="Gallery" class="gallery-image">
+                </li>
+                <li class="gallery-item">
+                    <img src="zzz4.jpeg" alt="Gallery" class="gallery-image">
+                </li>
+                <li class="gallery-item">
+                    <img src="zzz5.jpeg" alt="Gallery" class="gallery-image">
+                </li>
+                <li class="gallery-item">
+                    <img src="zzz6.jpeg" alt="Gallery" class="gallery-image">
+                </li>
+            </ul>
+        </div>
+      </section>
+      <section class="gallery-section"id="gallery">
+        <h2 class="section-title">Event Blue Archive</h2>
+        <div class="section-content">
+            <ul class="gallery-list">
+                <li class="gallery-item">
+                    <img src="ba1.jpeg" alt="Gallery" class="gallery-image">
+                </li>
+                <li class="gallery-item">
+                    <img src="ba2.jpeg" alt="Gallery" class="gallery-image">
+                </li>
+                <li class="gallery-item">
+                    <img src="ba3.jpeg" alt="Gallery" class="gallery-image">
+                </li>
+                <li class="gallery-item">
+                    <img src="ba4.jpeg" alt="Gallery" class="gallery-image">
+                </li>
+                <li class="gallery-item">
+                    <img src="ba5.jpeg" alt="Gallery" class="gallery-image">
+                </li>
+                <li class="gallery-item">
+                    <img src="ba6.jpeg" alt="Gallery" class="gallery-image">
+                </li>
+            </ul>
+        </div>
+      </section>
+      <section class="gallery-section"id="gallery">
+        <h2 class="section-title">Event Wuthering Waves</h2>
+        <div class="section-content">
+            <ul class="gallery-list">
+                <li class="gallery-item">
+                    <img src="ww1.jpeg" alt="Gallery" class="gallery-image">
+                </li>
+                <li class="gallery-item">
+                    <img src="ww2.jpeg" alt="Gallery" class="gallery-image">
+                </li>
+                <li class="gallery-item">
+                    <img src="ww3.jpeg" alt="Gallery" class="gallery-image">
+                </li>
+                <li class="gallery-item">
+                    <img src="ww4.jpeg" alt="Gallery" class="gallery-image">
+                </li>
+                <li class="gallery-item">
+                    <img src="ww5.jpeg" alt="Gallery" class="gallery-image">
+                </li>
+                <li class="gallery-item">
+                    <img src="ww6.jpeg" alt="Gallery" class="gallery-image">
+                </li>
+            </ul>
+        </div>
+      </section>
+       <!-- contact -->
+        <section class="contact-section"id="contact">
+            <h2 class="section-title">Contact Me</h2>
+            <div class="section-content">
+                <ul class="contact-info-list">
+                    <li class="contact-info">
+                        <i class="fa-solid fa-location-crosshairs"></i>
+                        <p>pahing-sidaraja-ciawigebang</p>
+                    </li>
+                    <li class="contact-info">
+                        <i class="fa-solid fa-phone"></i>
+                        <p>(77)7777777777</p>
+                    </li>
+                    <li class="contact-info">
+                        <i class="fa-solid fa-facebook"></i>
+                        <p>fall(IG)</p>
+                    </li>
+                    <li class="contact-info">
+                        <i class="fa-solid fa-message"></i>
+                        <p>WA</p>
+                    </li>
+                    <li class="contact-info">
+                        <i class="fa-solid fa-envelope"></i>
+                        <p>FALL@GMAIL.COM</p>
+                    </li>
+                </ul>
+                <form action="#" class="contact-form">
+                    <input type="text" placeholder="Name" class="form-input"required>
+                    <input type="text" placeholder="Email" class="form-input"required>
+                    <textarea placeholder="your message" class="form-input"required></textarea>
+                    <button class="submit-button">Submit</button>
+                </form>
+            </div>
+        </section>
+        <!-- footer -->
+         <footer class="footer-section">
+            <div class="section-content">
+                <p class="copyright-text">2025 GAME WAIFU</p>
+
+                <div class="social-link-list">
+                    <a href="https://www.facebook.com/hakim.daksnecis/" class="social-link "target="blank"><i class="fab fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/abshar_hkm/#" class="social-link" target="blank"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.facebook.com/hakim.daksnecis/" class="social-link" target="blank"><i class="fab fa-x-twitter"></i></a>
+                </div>
+
+                <p class="policy-text">
+                    <a href="#" class="policy-link">Privacy Policy</a>
+                    <span class="separator">.</span>
+                    <a href="#" class="policy-link">Refund policy</a>
+                </p>
+            </div>
+         </footer>
+
+    </main>
+    <!-- swipper -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <!--custom js-->
+    <script src="script1.js"></script>
+    <script src="filter-kelompok.js"></script>
+
+</body>
+</html>

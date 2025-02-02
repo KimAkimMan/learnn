@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //anonymous function varibel
+        let say = function (name){
+            document.writeln("hello "+name);
+        }
+
+        say ("sdsudsad<br>");
+        say ("sdsudsad");
+
+
+        //anonymous function di parameter
+
+        function giveMeName(callBack){
+            callBack("mer");
+        }
+        giveMeName(function(name){
+            document.writeln("<br>hel "+name);
+        });
+        giveMeName(function(name){
+            document.writeln("<br>helnah "+name);
+        });
+
+        //function dalam function
+        function luar(){
+            document.writeln("<br>woi lah");
+            function dalam(){
+                document.writeln("<br>hello");
+            }
+
+            dalam();
+            dalam();
+        }
+        luar();
+
+
+
+
+
+
+    </script>
+    <script>
+        //global scope
+        let counter = 0;
+
+        function hitme(){
+            counter++;
+        }
+        //global scope
+        function other(){
+
+        }
+        hitme();
+        hitme();
+
+        console.info(counter);
+
+        //global scope
+        function first(){
+            //local scope
+            let firstNama="meren";
+
+            function firstNested(){
+                //local scope
+                console.info(firstNama);
+            }
+            firstNested();
+        }
+        function second(){
+            let secondNama="mere";
+        }
+        function third(){
+            let thirdNama="mer";
+        }
+        first();
+        second();
+        third();
+
+        //tiodak bisa di panggil karena local scope
+        // console.info(firstNama);
+        // console.info(secondNama);
+        // console.info(thirdNama);
+
+
+
+        // recursive function pengulangan
+        function factorial(value){
+            let result =1;
+            for(let i = 1; i <= value; i++){
+                result *= i;
+            }
+            return result;
+        }
+        console.info(factorial(7));
+        console.info(1*2*3*4*5*6*7);
+
+        //recursive function
+        function factorialRecursive(value){
+            if(value === 1){
+                return 1;
+            }else{
+                return value * factorialRecursive(value-1);
+            }
+        }
+        console.info (factorialRecursive(17));
+        console.info(8*7*6*5*4*3*2*1);
+
+        //function generator simple
+        function* createNames(){
+            yield "meren";
+            yield "mere";
+            yield "mer";
+        }
+        const names = createNames();
+        for(const name of names){
+            
+            console.info(name);
+        }   
+
+        //function generator KOMPLEKS 
+        //lazy evaluation
+        function* buatGanjil(value){
+            for(let i = 1; i <= value; i++){
+                if(i % 2 === 1){
+                    console.info("yield "+i);
+                    yield i;
+                }
+            }
+        }
+        //eager evaluation
+        function buatGanjilArray(value){
+            const result = [];
+            for(let i = 1; i <= value; i++){
+                if(i % 2 === 1){
+                    console.info("yield "+i);
+                    result.push(i);
+                }
+            }
+            return result;
+        }
+        const numbers = buatGanjilArray(100);
+        // for(const number of numbers){
+        //     console.info(number);
+        // }
+
+        //lazy evaluation
+
+
+    </script>
+    <script>
+                function* buatGanjilll(value){
+            for(let i = 1; i <= value; i++){
+                if(i % 2 === 1){
+                    console.info("yield "+i);
+                    yield i;
+                }
+            }
+        }
+        const numberss = buatGanjilll(100);
+        console.info(numberss.next().value);
+
+
+
+        //arrow function
+
+        const sayHello = (name) => {
+            const hello = "hello "+name;
+            console.info(hello);
+        }
+        sayHello("meren");
+
+        //arrow function tanpa block
+        
+        const sayHello2 = (name) => console.info ("hello "+name);
+        sayHello2("meren");
+        const sum = (number1,number2) => number1 + number2;
+        console.info(sum(100,100));
+
+        //arrow function tanpa kurung parameter
+        const sayHello3 = name => console.info ("hello "+name);
+        sayHello3("meren");
+
+        //arrow function sebagai parameter
+        function giveMename(callback){
+            callback("Kim");   
+        }
+        //anonnymous function
+        giveMename(function(name){
+            console.info("hello "+name);
+        });
+        //arrow function 
+        giveMename((name) => console.info("hello "+name));
+        //closure
+        function createAdder(value){
+            const owner ="kim";
+            function add(pam){
+                console.info(owner);
+                return value + pam;
+            }
+            return add;
+        }
+        const addTen = createAdder(10);
+        console.info(addTen(10));
+
+
+        // //object dengan method
+        // const person ={
+        //     name:"kim",
+        //     sayHello: function(name){
+        //         alert("hello "+name);
+        //     }
+        // }
+        // person.sayHello("meren");
+
+        // //menambah object dengan method
+        // const person2 ={
+        //     names:"fall",       
+        // }
+        // person2.sayHelloo=function(names){
+        //     alert("hello "+names);
+        // }
+        // person2.sayHelloo("fal");
+        
+        //kata kunci this
+        //global
+        console.info(this);
+        //function
+        function sample(){
+            console.info(this);
+
+            function inner(){
+                console.info(this);
+            }
+            inner();
+        }
+        sample();
+
+        const person ={
+            name:"kim",
+            sayHello: function(name){
+                console.info("helo "+name+"my name is "+this.name);
+            }
+        }
+        person.sayHello("meren ");
+
+        //arrow function di object
+        const person2 ={
+            name:"fall",
+            sayHello: (name) => {
+                console.info("hello "+name+"my name is ");
+            }
+        }
+        person2.sayHello("meren ");
+
+        //setter dan getter
+
+        //getteeer
+        const person3 ={
+            firstName:"meren",
+            lastName:"fall",
+            get fullName(){
+                return `${this.firstName} ${this.lastName}`;
+            }
+
+        }
+        console.info(person3.fullName);
+
+        //setter
+        const person4 ={
+            firstName:"meren",
+            lastName:"fall",
+            get fullName(){
+                return `${this.firstName} ${this.lastName}`;
+            },
+            set fullName(value){
+                const array = value.split(" ");
+                this.firstName = array[0];  
+                this.lastName = array[1];
+            }
+        }
+        person4.fullName = "meren fall";
+        console.info(person4);
+
+        person4.fullName = "merennn fallll";
+        console.info(person4);
+
+        person4.fullName = "merensd fallsd";
+        console.info(person4);
+    </script>
+</body>
+</html>

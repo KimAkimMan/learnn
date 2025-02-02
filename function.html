@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // function sayHello(){
+        //     document.writeln("<p>yuhuuuuuuu<\p>");
+        // }
+
+        // sayHello();
+        // sayHello();
+        // sayHello();
+
+        // function yaKaliMeren(woi,lah){
+        //     document.writeln("<p> yang bener<\p>");
+        //         document.writeln(woi+"<br>"+"yang bener ae bang "+lah);
+        // }
+
+        // yaKaliMeren("woi","lah");
+
+        // //function dengan return//
+        // function nama(firstName,lastname){
+        //     const name = "hello"+firstName+" "+lastname;
+        //     return name;
+        // }
+        // nama("meren","meren");
+        // const result = nama("<br> meren","meren");
+        // document.writeln(result);
+
+        // document.writeln("<br>");    
+        
+        //function dengan return lebih dari satu//
+
+        function nilai(value){
+            if (value > 80){
+                return "A";
+        }else if (value > 70){
+            return "B";
+        }else if (value > 60){
+            return "C";
+        }else if (value > 50){
+            return "D";
+        }else {
+            return "E";
+        }
+        }
+
+        const result = nilai(90);
+        document.writeln(result);
+
+
+        document.writeln(nilai(80));
+        document.writeln(nilai(70));
+        document.writeln(nilai(60));
+        document.writeln(nilai(50));
+        document.writeln(nilai(40));
+
+        //menghentikan eksekusi dengan return//
+        function isContains(array,searchValue){
+            for(const element of array){
+                if(element === searchValue){
+                    return true;
+                }
+            }
+            return false;
+        }
+        const array = [1,2,3,4,5];
+        const search = 3;
+        const found = isContains(array,search);
+        document.writeln("<br>"+found);
+        
+        // //function optional parameter//
+        // function sayHello(firstName,lastName){
+        //     console.info(firstName);
+        //     console.info(lastName);
+        //     }
+        //     sayHello("meren");
+        //     sayHello("meren","meren");
+        //     sayHello("meren","meren","meren");
+
+            //function default parameter//
+            function register (name,umur="uknown"){
+                console.info(name);
+                console.info(umur);
+            }
+            register("kim");
+            register("fall",19);
+            register("fall",undefined);
+            register("fall",null);
+
+            //function rest parameter//
+            function sum(name,...data){
+                let total =0;
+                for(const item of data){
+                    total += item;
+                }
+                document.writeln("total"+name+" " +total)
+            }
+            sum(" ml",8,138,38438,13,8);
+
+            const value = [1,2,3,4,5];
+            sum(" <br> ml",...value);
+
+
+            //arguments object//
+            function oldsum(){
+                let total =0;
+                for(const item of arguments){
+                    total += item;
+                }
+                document.writeln("<br>total "+total)
+            }
+            oldsum(1,2,3,4,5);
+
+
+            //function sebagai value//
+            function sayHello(name){
+
+                document.writeln("<p> hello "+name);
+            }
+            sayHello("meren");
+
+            const say = sayHello;
+
+            say("mere");
+            sayHello("me");
+
+            //function sebagai parameter//
+
+            function giveMeName(callback){
+                callback("mer");
+            }
+            giveMeName(sayHello);
+            giveMeName(say);
+        
+    </script>
+</body>
+</html>
