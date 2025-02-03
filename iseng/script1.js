@@ -48,6 +48,7 @@ const swiper = new Swiper('.slider-wrapper', {
 
 const gameButtons = document.querySelectorAll('.game-btn');
 
+
 const sections = document.querySelectorAll('.testimonials-section');
 
 gameButtons.forEach(button => {
