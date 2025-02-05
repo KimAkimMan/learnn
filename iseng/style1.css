@@ -246,6 +246,7 @@ header {
     gap: 110px;
     align-items: center;
     justify-content: space-between;
+    color : var(--white-color);
 }
 
 .menu-section .menu-list .menu-item{
@@ -255,6 +256,7 @@ header {
     flex-direction: column;
     justify-content: space-between;
     width: calc(100% / 3 - 110px);
+    color: var(--dark-color);
 }
 
 .menu-section .menu-list .menu-item .menu-image{
@@ -263,11 +265,14 @@ header {
     margin-bottom: 15px;
     object-fit: contain;
 }
-
+.name a{ 
+    color: var(--white-color) !important;
+}
 .menu-section .menu-list .menu-item .name{
     margin: 12px 0;
-    font-size: var(--font-size-l);
+    font-size: var(--font-size-xl);
     font-weight: var(--font-weight-semibold);
+    color: var(--white-color); 
 }
 
 .menu-section .menu-list .menu-item .text{
@@ -447,6 +452,86 @@ iframe {
     color: gray;
 }
 
+/* info  */
+.info-section {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    overflow: hidden;
+    font-weight: var(--font-weight-bold);
+}
+
+.info-section::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('cunningsquad.png');
+    background-size: cover;
+    background-position: center;
+    filter: blur(12px);
+    z-index: -1;
+}
+.game-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.game-info img {
+    width: 170px;
+    height: 170px;
+    justify-content: flex-start;
+}
+
+.description {
+    flex: 1;
+    margin-left: 20px;
+}
+
+.additional-info {
+    display: flex;
+    flex-wrap: wrap;  /* Memungkinkan gambar berbaris */
+    justify-content: space-around;  /* Membuat jarak antar gambar */
+    gap: 20px;
+    width: 80%;
+    margin-bottom: 40px;
+}
+
+.info-item {
+    display: flex;
+    flex-direction: column;  /* Gambar di atas, nama dan deskripsi di bawah */
+    justify-content: flex-start;
+    align-items: center;
+    width: calc(25% - 20px);  /* Membuat enam gambar per baris (dengan gap) */
+}
+
+.info-item img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    margin-bottom: 70px;
+    border-radius: var(--border-radius-circle);
+}
+.info-text{
+    text-align: center;
+}
+ .info-title{
+    text-align: center;
+    font-size: var(--font-size-l);
+ }
+ .info-deskripsi{
+    text-align: center;
+    font-size: var(--font-size-m);
+ }
+.info-item div {
+    margin-top: 10px;
+}
 
 /* game  */
 .game-filters {

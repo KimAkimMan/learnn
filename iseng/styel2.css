@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-size: cover;
+    color: white;
+    backdrop-filter: blur(10px);
+}
+
+.informasi-section {
+    font-family: Arial, sans-serif;
+    background: url('cunningsquad.png') no-repeat center center fixed;
+    background-size: 100%;
+    color: white;
+    backdrop-filter: blur(10px);
+    padding: 50px 0 100px;
+
+}
+
+/* Judul Genshin Impact */
+.section-title {
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+/* Layout utama: Flexbox untuk sejajar */
+.section-content {
+
+    display: flex;
+
+    flex-direction: column;
+
+    align-items: center;
+
+    gap: 20px;
+
+}
+
+/* KIRI: Logo + Deskripsi */
+.class-information {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    flex: 1;
+}
+
+/* Gambar Logo */
+.menu-image {
+    width: 150px;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* Deskripsi Game */
+.deskripsi-game {
+    font-size: 16px;
+    flex: 1;
+}
+
+/* KANAN: Info Kota (Menggunakan flex agar sejajar) */
+.info-wrapper {
+    display: flex;
+    gap: 15px;
+    flex: 1;
+    background: none; /* Pastikan tidak ada background */
+}
+
+
+/* Kotak Info */
+
+.info {
+    list-style: none;
+    background-color: transparent; /* Hapus warna background */
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    gap: 10px;
+    width: 250px;
+    box-shadow: none;
+    border: none;
+}
+
+
+/* Gambar Info */
+.user-image {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-left: 10px;
+    align-items: center;
+}
+
+/* Judul Info */
+.name {
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+}
+
+/* Deskripsi Info */
+.feedback {
+    font-size: 14px;
+    font-style: italic;
+    color: #ccc;
+}
