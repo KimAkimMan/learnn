@@ -184,6 +184,7 @@ header {
     max-width: 500px;
     margin-top: auto;
     margin-right: 100px;
+    margin-bottom: auto;
 }
 /* About style*/
 .about-section{
@@ -380,6 +381,10 @@ header {
     opacity: 1;
 }
 /* video  */
+.videos-selection-section{
+    padding: 50px 0 100px;
+    background: var(--white-color);
+}
 .container {
     display: flex;
     width: 800px;
@@ -625,7 +630,7 @@ iframe {
     width: 80%;
     margin-bottom: 40px;
 }
-/* info item ZZZ*/
+/* info item ZZZ dan wuwa*/
 .info-item {
     display: flex;
     flex-direction: column;  /* Gambar di atas, nama dan deskripsi di bawah */
@@ -641,7 +646,7 @@ iframe {
     margin-bottom: 70px;
     border-radius: var(--border-radius-circle);
 }
-/* info item GI dan honkai impact DAN WUWA*/
+/* info item GI dan honkai impact */
 .info-item1 {
     display: flex;
     flex-direction: column;  /* Gambar di atas, nama dan deskripsi di bawah */
