@@ -202,7 +202,7 @@ span {
 .typing-text span::before{
     content: "singer of lumina square";
     color: aquamarine;
-    animation: words 20s infinite;
+    animation: words 10s infinite;
 }
 
 .typing-text span::after{
